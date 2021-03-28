@@ -177,3 +177,7 @@ service_worker:
       handler: cacheFirst
       options:
         origin: p3.music.126.net
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: cdn.nlark.com
