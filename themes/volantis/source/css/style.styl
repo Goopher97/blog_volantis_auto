@@ -1,0 +1,15 @@
+@import '_defines/*'
+
+// Project
+@import '_tag-plugins/*'
+@import '_highlight'
+@import '_plugins/index'
+@import '_layout/*'
+@import '_other/*'
+
+if hexo-config('plugins.slider.enable')
+  @import '_slider/*'
+
+#safearea{
+  display: block
+}

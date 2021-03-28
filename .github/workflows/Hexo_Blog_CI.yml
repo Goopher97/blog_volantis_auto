@@ -1,0 +1,44 @@
+name: Hexo Blog CI
+
+on: [push, repository_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository master branch
+        uses: actions/checkout@master
+
+      - name: Setup Node.js 15.x
+        uses: actions/setup-node@master
+        with:
+          node-version: "15.x"
+
+      - name: Setup Hexo Dependencies
+        run: |
+          npm install hexo-cli -g
+          npm install yuque-hexo -g
+          npm install
+      - name: Setup Deploy Private Key
+        env:
+          HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$HEXO_DEPLOY_PRIVATE_KEY" > ~/.ssh/id_rsa 
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts  
+      - name: Setup Git Infomation
+        run: |
+          git config --global user.name 'Goopher97' 
+          git config --global user.email '1520396767@qq.com'      
+      - name: Deploy Hexo
+        run: |
+          hexo clean
+          yuque-hexo clean
+          YUQUE_TOKEN=H53SCtluL6uRo6nFf0ZY9s9fZGlRP7rBIPUnXw4M yuque-hexo sync
+          hexo bangumi -d
+          hexo bangumi -u
+          hexo generate
+          gulp
+          hexo deploy

@@ -1,0 +1,299 @@
+- group: 手动添加的分组 # 分组标题
+  description: 由于api容易挂，并且截图太多页面卡顿，就增加了这一个分组。 # 分组描述
+  items:
+    - title: Ch1e’sBlog
+      screenshot: 
+      url: https://qqblog.top/
+      description: 网络安全爱好者
+      avatar: https://q4.qlogo.cn/headimg_dl?dst_uin=1444440144&spec=100
+    - title: 小浣熊的技术小站
+      screenshot: 
+      url: https://www.nimitiz.cn/
+      description: 生命不息，折腾不止
+      avatar: https://ftp.bmp.ovh/imgs/2020/08/af2963980918097c.jpg
+    - title: Fadai’s Blog
+      screenshot: 
+      url: https://www.niuwx.cn/
+      description: 蒟蒻的学习笔记
+      avatar: https://cdn.jsdelivr.net/gh/28251536/cloudimg@master/img%E5%A4%B4%E5%83%8F.png
+    - title: 土土博客
+      avatar: https://hi-tutu.top/3.jpg
+      url: https://hi-tutu.top/
+      screenshot: https://hi-tutu.top/cover.png
+      description: 土土的秘密小屋
+    - title: SAM's BLOG # 名称
+      avatar: https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3216471116,1483332883&fm=26&gp=0.jpg # 头像
+      url: http://sam1314.xyz:1314/ # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description:  # 描述
+    - title: The Private Space   # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/FD2534B0-739E-41BC-AC2D-8B0A6FA0DFAF_L0_001_origin.IMG_1090.JPG # 头像
+      url: https://lazzydog.gitee.io/git/  # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description:  # 描述
+    - title: 天昕
+      avatar: https://gitee.com/sutianxin/my-hexo-blog-photo/raw/master/20210213111233.png
+      url: https://sutianxin.top
+      screenshot: https://gitee.com/sutianxin/my-hexo-blog-photo/raw/master/20210213113046.jpg
+      keywords:
+      description: 往者不谏 来者可追
+    - title: 小冰博客 # 名称
+      avatar: https://zfe.space/images/headimage.png # 头像
+      url: https://zfe.one/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/f9618c355a803.png # 截图
+      keywords: # 关键词
+      description: 做个有梦想的人！ # 描述
+    - title: 绎梦机 # 名称
+      avatar: https://rmt.dogedoge.com/fetch/kurumit3/storage/avatar.jpg?fmt=webp # 头像
+      url: https://kurumit3.top/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/f9618c355a803.png # 截图
+      keywords: # 关键词
+      description: 有限的记忆，无限的梦 # 描述
+    - title: 可定博客 # 名称
+      avatar: https://avatar.wnag.com.cn/gravatar.png # 头像
+      url: https://wnag.com.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/f9618c355a803.png # 截图
+      keywords: # 关键词
+      description: 点进来的，都是各个方面的大佬~ # 描述
+    - title: 善逸 # 名称
+      avatar: https://online-education-headimg.oss-cn-beijing.aliyuncs.com/avatar.png # 头像
+      url: https://blog.hoon.icu # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-105736@2x.png # 截图
+      keywords: # 关键词
+      description: 善逸的菜园子。 # 描述
+    - title: GodApex # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Peter-Highness/CDN/img/avator.jpg # 头像
+      url: https://godapex.com/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-105614@2x.png # 截图
+      keywords: # 关键词
+      description: GodApex - 那个男人 # 描述
+    - title: 小背影 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/xbying/tu/img/h1.png # 头像
+      url: https://xbying.com # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-105448@2x.png # 截图
+      keywords: # 关键词
+      description: 过于个性 没有签名。 # 描述
+    - title: XingYu 'blog # 名称
+      avatar: https://tc.itxy.tech/2021/01/14/tx.png # 头像
+      url: https://www.itxy.tech # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-105219@2x.png # 截图
+      keywords: # 关键词
+      description: 记录与回顾。 # 描述
+    - title: 凌叶小屋 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/lingleavesgithub/imagesbad/img/20210128000141.png # 头像
+      url: https://blog.lingleaves.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-105219@2x.png # 截图
+      keywords: # 关键词
+      description: 介绍，记录生活，记录一切。 # 描述
+    - title: Bryce's Club # 名称
+      avatar: https://riris.cn/img/blog/kenan.jpeg # 头像
+      url: https://riris.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-105102@2x.png # 截图
+      keywords: # 关键词
+      description: 啥都想学的程序员。 # 描述
+    - title: zyf-42的小站 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/zyf-42/jpg@1.3/tou.jpg # 头像
+      url: https://zyf-42.gitee.io # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-104814@2x.png # 截图
+      keywords: # 关键词
+      description: 一个极客的日常生活。 # 描述
+    - title: CtrlCV博客 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/BC327CECDA3D163117636412C8342593.jpg # 头像
+      url: https://www.hack-er.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-104554@2x.png # 截图
+      keywords: # 关键词
+      description: 他说不用简介。 # 描述
+    - title: 麦奇 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/mikeygithub/jsDeliver@master/resource/img/avatar.png # 头像
+      url: https://mikeygithub.github.io/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-104259@2x.png # 截图
+      keywords: # 关键词
+      description: 麦奇的博客。 # 描述
+    - title: 随性のBlog # 名称
+      avatar: https://hanxea.gitee.io/img/image.jpg # 头像
+      url: https://hanxea.gitee.io/random/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-104100@2x.png # 截图
+      keywords: # 关键词
+      description: 一个经常咕咕咕的Blog。 # 描述
+    - title: 爱即是诗 # 名称
+      avatar: https://www.aigisss.com/blog/img/avatar.png # 头像
+      url: https://www.aigisss.com # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-103928@2x.png # 截图
+      keywords: # 关键词
+      description: AI&GIS博客。 # 描述
+    - title: 猫のレインボー島 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/annkoxx/img_annko@main/20210121/annko.png # 头像
+      url: https://annko.cn/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-103722@2x.png # 截图
+      keywords: # 关键词
+      description: 分享|创新|博爱 # 描述
+    - title: coderFly # 名称
+      avatar: # 头像
+      url: https://www.coderfly.ltd/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/f9618c355a803.png # 截图
+      keywords: # 关键词
+      description: 生在勤，不索何获。 # 描述
+    - title: 梦繁星 # 名称
+      avatar: https://www.moeor.com/img/avatar.webp # 头像
+      url: https://www.moeor.com/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-103226@2x.png # 截图
+      keywords: # 关键词
+      description: 不过是大梦一场空。 # 描述
+    - title: leader755 Blogs # 名称
+      avatar: https://gitee.com/leader755/imagehost/raw/master/blog/wx_avatar.png # 头像
+      url: https://www.leader755.com/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-103107@2x.png # 截图
+      keywords: # 关键词
+      description: 分享web前端相关的技术文章，会记录日常生活中的琐事和大家一起分享。 # 描述
+    - title: 明杰的自留地 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/6D5C76D7D4AB774FD9F4AF1F6D141AE1.jpg # 头像
+      url: http://mingjie610.com # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-102949@2x.png # 截图
+      keywords: # 关键词
+      description: 群友的博客。 # 描述
+    - title: 北枫 # 名称
+      avatar: https://q1.qlogo.cn/g?b=qq&nk=41777657&s=640 # 头像
+      url: https://beifeng.me/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/f9618c355a803.png # 截图
+      keywords: # 关键词
+      description: 记录一个人的生活点滴。 # 描述
+    - title: moliam # 名称
+      avatar: https://backgroundimg.oss-cn-shenzhen.aliyuncs.com/9_ball3_4k.jpg # 头像
+      url: https://moliam.space # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-102642@2x.png # 截图
+      keywords: # 关键词
+      description: 一个嵌入式菜鸡。 # 描述
+    - title: 木子の博客 # 名称
+      avatar: https://7.dusays.com/2020/10/19/b246230298bf0.png # 头像
+      url: https://www.mz-zone.cn/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-102425@2x.png # 截图
+      keywords: # 关键词
+      description: 积水成河，积土成山！ # 描述
+    - title: 绒布球 # 名称
+      avatar: https://p.pstatp.com/origin/138a1000258dc4c420bbf # 头像
+      url: https://rongbuqiu.com/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-102245@2x.png # 截图
+      keywords: # 关键词
+      description: 绒布球的快乐小站。 # 描述
+    - title: Aware's Blog # 名称
+      avatar: # 头像
+      url: https://awarewen.github.io/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-102125@2x.png # 截图
+      keywords: # 关键词
+      description: Aware's Blog # 描述
+    - title: 白小飞のBlog # 名称
+      avatar: https://blog.baixf.tk//img/00.gif # 头像
+      url: https://blog.baixf.tk/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-102004@2x.png # 截图
+      keywords: # 关键词
+      description: 小菜鸡一枚了~ # 描述
+    - title: 黑果小兵的部落格 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/IMG_2252.JPG # 头像
+      url: https://blog.daliansky.net/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-101828@2x.png # 截图
+      keywords: # 关键词
+      description: Mac镜像下载与常见问题。 # 描述
+    - title: Xjn´s Blog # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/auther.jpg # 头像
+      url: https://blog.xjn819.com # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-101554@2x.png # 截图
+      keywords: # 关键词
+      description: 黑苹果分享。 # 描述
+    - title: Bugprogrammer的博客 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/my.jpg # 头像
+      url: https://www.bugprogrammer.me # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-101259@2x.png # 截图
+      keywords: # 关键词
+      description: 黑苹果分享。 # 描述
+    - title: 针针小站 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/1f142de0829cdb9e2915bec72ea0a60b.jpeg # 头像
+      url: https://hyejeong.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-100942@2x.png # 截图
+      keywords: # 关键词
+      description: 群友的博客。 # 描述
+    - title: 套陆的博客 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/28970198.jpeg # 头像
+      url: https://blog.tlhub.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-100825@2x.png # 截图
+      keywords: # 关键词
+      description: 群友的博客。 # 描述
+    - title: 神楽小白 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/avatar.png # 头像
+      url: http://yqp7js.coding-pages.com # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-100710@2x.png # 截图
+      keywords: # 关键词
+      description: 群友的博客。 # 描述
+    - title: XStar-Dev的博客 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/20257662.jpeg # 头像
+      url: https://xstar-dev.github.io # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-100543@2x.png # 截图
+      keywords: # 关键词
+      description: 黑苹果分享。 # 描述
+    - title: 房大叔的博客 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/avatar-2.png # 头像
+      url: https://fangf.cc # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-100336@2x.png # 截图
+      keywords: # 关键词
+      description: hackintosh黑苹果技术分享。 # 描述
+    - title: 望海之洲 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/avatar-3.png # 头像
+      url: https://www.penghubingzhou.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-100059@2x.png # 截图
+      keywords: # 关键词
+      description: 澎湖冰洲的极客地带。 # 描述
+    - title: tonymacx86 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/laofanqqie.png # 头像
+      url: https://www.tonymacx86.com # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-095948@2x.png # 截图
+      keywords: # 关键词
+      description: 老番茄。 # 描述
+    - title: 极简壁纸 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/%E6%88%AA%E5%B1%8F2020-12-25%2011.07.30.png # 头像
+      url: https://bz.zzzmh.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-095811@2x.png # 截图
+      keywords: # 关键词
+      description: 免费4K壁纸下载。 # 描述
+    - title: 金牛肖马知乎专栏 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/v2-b0374941f8d9fa0edf2f287b0f41f335_l.jpg # 头像
+      url: https://zhuanlan.zhihu.com/p/111014448 # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-095640@2x.png # 截图
+      keywords: # 关键词
+      description: Homebrew国内源一键安装。 # 描述
+    - title: Mackw # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/%E6%88%AA%E5%B1%8F2020-12-25%2010.58.05.png # 头像
+      url: https://www.macwk.com # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-095503@2x.png  # 截图
+      keywords: # 关键词
+      description: 精品Mac软件下载。 # 描述
+    - title: 远景论坛 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/%E6%88%AA%E5%B1%8F2020-12-25%2010.53.22.png # 头像
+      url: http://bbs.pcbeta.com # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210227-024950@2x.png # 截图
+      keywords: # 关键词
+      description: 中文黑苹果论坛。 # 描述
+    - title: insanelymac # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/catalina-installer-icon.thumb.png.1bf9092ffb0967903709b0633ed36ec1.png # 头像
+      url: https://www.insanelymac.com # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210227-024900@2x.png # 截图
+      keywords: # 关键词
+      description: 黑苹果英文论坛。 # 描述
+    - title: OC部件中文指南 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/%E6%88%AA%E5%B1%8F2020-12-25%2010.22.45.png # 头像
+      url: https://ocbook.tlhub.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210227-024651@2x.png # 截图
+      keywords: # 关键词
+      description: 黑苹果必看的中文指南。 # 描述
+    - title: OpenCore中文参考手册 # 名称
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/%E6%88%AA%E5%B1%8F2020-12-25%2010.22.45.png # 头像
+      url: https://oc.skk.moe # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210227-024355@2x.png # 截图
+      keywords: # 关键词
+      description: 黑苹果必看的参考。 # 描述
+    - title:  # 名称
+      avatar:  # 头像
+      url:  # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description:  # 描述
