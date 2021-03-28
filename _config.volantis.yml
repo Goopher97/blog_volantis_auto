@@ -2,17 +2,17 @@
 # use_cdn: /source/js/* 中的JS文件(JS Only)使用jsdelivr的min版本加速
 # 默认使用 https://cdn.jsdelivr.net/npm/hexo-theme-volantis@<%- theme.info.theme_version %>/source/js/*.min.js 的CDN压缩版本(min.js)，注意版本号对应关系！！可以通过修改以下配置项覆盖
 # 开发者注意 use_cdn 设置为 false
-use_cdn: false
+use_cdn: true
 info:
   theme_name: Volantis # This is theme's name.
   theme_version: '4.3.1' # This is theme's version.
   theme_docs: https://volantis.js.org/ # This is theme's URL.
   theme_repo: https://github.com/volantis-x/hexo-theme-volantis
   cdn:
-    js: # https://cdn.jsdelivr.net/npm/hexo-theme-volantis@<%- theme.info.theme_version %>/source/js/app.min.js # 注意版本!!!
+    js: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.3/source/js/app.min.js # https://cdn.jsdelivr.net/npm/hexo-theme-volantis@<%- theme.info.theme_version %>/source/js/app.min.js # 注意版本!!!
     css:
-      first: # /css/first.css (需自行替换CDN 首屏样式 cover navbar search )
-      style: # /css/style.css (需自行替换CDN 异步加载 Others...           )
+      first: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.3/source/css/first.min.css # /css/first.css (需自行替换CDN 首屏样式 cover navbar search )
+      style: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.3/source/css/style.min.css # /css/style.css (需自行替换CDN 异步加载 Others...           )
 ########################################################################
 
 ############################### Navigation Bar ############################### > start
@@ -763,8 +763,8 @@ plugins:
     # 说说功能
     # Set `layout: hpp_talk` to enable in page
      hpp_talk:
-       css: ../css/talk.css # 建议锁定版本
-       js: ../js/talk_user.js # 建议锁定版本
+       css: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.3/source/css/talk.min.css # ../css/talk.css # 建议锁定版本
+       js: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.3/source/js/talk_user.min.js # ../js/talk_user.js # 建议锁定版本
        limit: 5
        start: 0
        # 配置项按照yml格式继续填写即可
