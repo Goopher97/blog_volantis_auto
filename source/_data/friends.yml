@@ -5,19 +5,19 @@
       screenshot: 
       url: https://qqblog.top/
       description: 网络安全爱好者
-      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang2@master/img/af2963980918097c.jpeg
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang2@master/img/headimg_dl.jpeg
     - title: 小浣熊的技术小站
       screenshot: 
       url: https://www.nimitiz.cn/
       description: 生命不息，折腾不止
-      avatar: https://ftp.bmp.ovh/imgs/2020/08/af2963980918097c.jpg
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang2@master/img/af2963980918097c.jpeg
     - title: Fadai’s Blog
       screenshot: 
       url: https://www.niuwx.cn/
       description: 蒟蒻的学习笔记
       avatar: https://cdn.jsdelivr.net/gh/28251536/cloudimg@master/img%E5%A4%B4%E5%83%8F.png
     - title: 土土博客
-      avatar: https://hi-tutu.top/3.jpg
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang2@master/img/3.jpg
       url: https://hi-tutu.top/
       screenshot: https://hi-tutu.top/cover.png
       description: 土土的秘密小屋
@@ -130,7 +130,7 @@
       keywords: # 关键词
       description: 分享|创新|博爱 # 描述
     - title: coderFly # 名称
-      avatar: # 头像
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang2@master/img/OIP.CsrHO8v_46Qx82s9RBUMEAAAAA.jpeg # 头像
       url: https://www.coderfly.ltd/ # 链接
       screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/f9618c355a803.png # 截图
       keywords: # 关键词
@@ -178,7 +178,7 @@
       keywords: # 关键词
       description: 绒布球的快乐小站。 # 描述
     - title: Aware's Blog # 名称
-      avatar: # 头像
+      avatar: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang2@master/img/OIP.J1qrqZKVeXBEU1W6zvcTjAAAAA.jpeg # 头像
       url: https://awarewen.github.io/ # 链接
       screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-102125@2x.png # 截图
       keywords: # 关键词
