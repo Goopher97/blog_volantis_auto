@@ -181,3 +181,7 @@ service_worker:
       handler: cacheFirst
       options:
         origin: cdn.nlark.com
+    - urlPattern: /*
+      handler: cacheFirst
+      options:
+        origin: 6262-bbheson-8g786pfr76db9303-1257358059.tcb.qcloud.la
