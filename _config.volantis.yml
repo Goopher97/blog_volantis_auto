@@ -38,6 +38,10 @@ navbar:
         - name: 标签
           icon: fad fa-tags # pro
           url: tags/
+        - name: hr
+        - name: 关于
+          icon: fad fa-info-circle # pro
+          url: about/
     - name: 友链
       icon: fad fa-link # pro
       url: friends/
@@ -70,15 +74,11 @@ navbar:
         - name: hr
         - name: 来点音乐
           icon: fad fa-music
-          url: https://music.goopher.tk
+          url: https://music.goopher.tk/
         - name: hr
         - name: 音乐解锁
           icon: fad fa-unlock-alt # pro
           url: https://unlockmusic.goopher.tk/
-        - name: hr
-        - name: 关于
-          icon: fad fa-info-circle # pro
-          url: about/
     - name: 开往
       icon: fad fa-subway # pro
       url: https://travellings.now.sh/
@@ -779,7 +779,7 @@ plugins:
 rightmenu:
   enable: true
   # hr: 分割线, music: 音乐控制器
-  layout: [home, archives, categories, tags, hr, talk, bilibili, hr, darkmode, hr, print hr, music]
+  layout: [home, archives, categories, tags, hr, darkmode, hr, print hr, music]
   # 可选功能项
   print:
     name: 打印页面
