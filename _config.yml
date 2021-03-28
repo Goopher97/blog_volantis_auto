@@ -106,16 +106,20 @@ deploy:
   repo: git@github.com:Goopher97/Goopher97.github.io.git
   branch: master
 
-# Extensions
-## Plugins: http://hexo.io/plugins/
-#RSS订阅
-plugin:
-  - hexo-generator-feed
-#Feed Atom
+# RSS订阅
 feed:
-type: atom
-path: atom.xml
-limit: 20
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template:
 
 import:
   meta:
@@ -132,9 +136,7 @@ import:
     - <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/favicon_32x32.ico">
     # - <link rel="stylesheet" href="https://at.alicdn.com/t/font_2293546_qip4pw1trbi.css"> # 引入阿里图标库 前面加 iconfont
 
-Plugins:
-  - hexo-generator-baidu-sitemap
-  - hexo-generator-sitemap
+# 站点地图
 baidusitemap:
   path: baidusitemap.xml
 sitemap:
