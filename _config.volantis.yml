@@ -763,8 +763,8 @@ plugins:
     # 说说功能
     # Set `layout: hpp_talk` to enable in page
      hpp_talk:
-       css: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.4/source/css/talk.css # ../css/talk.css # 建议锁定版本
-       js: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.4/source/js/talk_user.js # ../js/talk_user.js # 建议锁定版本
+       css: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.4/source/css/talk.css # 建议锁定版本
+       js: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.4/source/js/talk_user.js # 建议锁定版本
        limit: 5
        start: 0
        # 配置项按照yml格式继续填写即可
