@@ -1,8 +1,5 @@
 <%- partial('_pre') %>
 <div class='l_main<%- page.sidebar == false ? ' no_sidebar' : '' %>'>
-  <% if (theme.plugins.slider.enable == true) { %>
-    <%- partial('_partial/slider') %>
-  <% } %>
   <%- partial('_partial/archive') %>
 </div>
 <%- partial('_partial/side') %>
