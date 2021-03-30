@@ -534,9 +534,10 @@ site_footer:
 
 ############################### Plugins ############################### > start
 plugins:
-  ########### 图片轮播不支持pjax ##############
+  ########### 图片轮播 ##############
   slider:
-    enable: false
+    enable: true
+    js: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.5/slider.min.js
     img_1: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022629@2x.png
     link_1: /posts/21510.html
     img_2: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022959@2x.png
@@ -548,12 +549,12 @@ plugins:
     img_5: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/shiyongvolantisgengyouya.png
     link_5: /posts/16065.html
 
-  ########### 热门帖子 ##############
+  ########### 热门文章 ##############
   hot_post:
-    ###### 热门1 #####
+    ###### 热门文章1 #####
     pic_one: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022351@2x.png
     post_one: /posts/64658.html
-    ###### 热门2 #####
+    ###### 热门文章2 #####
     pic_two: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/%E5%9B%BE%E6%80%AA%E5%85%BD_bb872333f9b8822a09d329308f839556_24325.png
     post_two: /posts/52146.html
 

@@ -1,0 +1,14 @@
+<script>
+    function pjax_slider() {
+        if($('#slider')[0]) {
+            $("#slider").sliderImg({
+                imgs: ["<%- theme.plugins.slider.img_1 %>", "<%- theme.plugins.slider.img_2 %>", "<%- theme.plugins.slider.img_3 %>", "<%- theme.plugins.slider.img_4 %>", "<%- theme.plugins.slider.img_5 %>"],
+                link: ["<%- theme.plugins.slider.link_1 %>", "<%- theme.plugins.slider.link_2 %>", "<%- theme.plugins.slider.link_3 %>", "<%- theme.plugins.slider.link_4 %>", "<%- theme.plugins.slider.link_5 %>"],
+            });
+        }
+    }
+    $(function () {
+        pjax_slider();
+    });
+    volantis.pjax.push(pjax_slider)
+</script>

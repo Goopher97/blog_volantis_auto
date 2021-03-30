@@ -6,6 +6,8 @@ if hexo-config('plugins.clipboard.enable')
   @import 'clipboard'
 if hexo-config('plugins.pjax.enable') and hexo-config('plugins.pjax.animation')
   @import 'pjaxanimate'
+if hexo-config('plugins.slider.enable')
+  @import 'slider'
 if hexo-config('comments.service')=='valine'
   @import 'valine'
 if hexo-config('comments.service')=='gitalk'
