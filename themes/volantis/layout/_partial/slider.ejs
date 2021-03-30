@@ -1,0 +1,25 @@
+<!--图片轮播-->
+<div class="slider">
+    <%- js(theme.plugins.jquery) %>
+    <script src="../js/slider.js"></script>
+    <div id="slider" style="width: 520px; height: 300px;"></div>
+    <script>
+        $("#slider").sliderImg({
+            imgs: ["<%- theme.plugins.slider.img_1 %>", "<%- theme.plugins.slider.img_2 %>", "<%- theme.plugins.slider.img_3 %>", "<%- theme.plugins.slider.img_4 %>", "<%- theme.plugins.slider.img_5 %>"],
+            link: ["<%- theme.plugins.slider.link_1 %>", "<%- theme.plugins.slider.link_2 %>", "<%- theme.plugins.slider.link_3 %>", "<%- theme.plugins.slider.link_4 %>", "<%- theme.plugins.slider.link_5 %>"],
+        });
+    </script>
+    <div class="hot_post">
+        <!--热门文章&图片-->
+        <div class="index-banner">
+            <a href="<%- theme.plugins.hot_post.post_one %>" target="_self">
+                <img src="<%- theme.plugins.hot_post.pic_one %>">
+            </a>
+        </div>
+        <div class="index-banner forpadding">
+            <a href="<%- theme.plugins.hot_post.post_two %>" target="_self">
+                <img src="<%- theme.plugins.hot_post.pic_two %>">
+            </a>
+        </div>
+    </div>
+</div>
