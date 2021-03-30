@@ -9,7 +9,7 @@ abbrlink: 16539
 date: 2021-03-17 12:41:31
 ---
 ## 前言
-新的教程已经发布,请参看 https://goopher.tk/posts/00001.html
+新的教程已经发布,请参看 https://goopher.tk/posts/1.html
 参考了黑石的教程 https://www.heson10.com/posts/19736.html  
 模板参考了 https://www.jq22.com/jquery-info23463  
 目前已知的问题：不支持Pjax。
