@@ -536,7 +536,7 @@ site_footer:
 plugins:
   ########### 图片轮播不支持pjax ##############
   slider:
-    enable: false
+    enable: true
     img_1: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022629@2x.png
     link_1: /posts/21510.html
     img_2: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022959@2x.png
