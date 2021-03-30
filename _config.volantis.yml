@@ -538,24 +538,24 @@ plugins:
   slider:
     enable: false
     img_1: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022629@2x.png
-    link_1: https://goopher.tk/posts/21510.html
+    link_1: /posts/21510.html
     img_2: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022959@2x.png
-    link_2: https://goopher.tk/posts/50300.html
+    link_2: /posts/50300.html
     img_3: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-023228@2x.png
-    link_3: https://goopher.tk/posts/24004.html
+    link_3: /posts/24004.html
     img_4: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/%E5%9B%BE%E6%80%AA%E5%85%BD_c3e24bc3d29796c0593475a22f3a11e0_24823.png
-    link_4: https://goopher.tk/posts/61617.html
+    link_4: /posts/61617.html
     img_5: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/shiyongvolantisgengyouya.png
-    link_5: https://goopher.tk/posts/16065.html
+    link_5: /posts/16065.html
 
   ########### 热门帖子 ##############
   hot_post:
     ###### 热门1 #####
     pic_one: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022351@2x.png
-    post_one: https://goopher.tk/posts/64658.html
+    post_one: /posts/64658.html
     ###### 热门2 #####
     pic_two: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/%E5%9B%BE%E6%80%AA%E5%85%BD_bb872333f9b8822a09d329308f839556_24325.png
-    post_two: https://goopher.tk/posts/52146.html
+    post_two: /posts/52146.html
 
   ################ required plugins ################
   # jquery
