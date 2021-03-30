@@ -1,8 +1,9 @@
-<!--图片轮播-->
 <div class="slider">
     <%- js(theme.plugins.jquery) %>
     <script src="../js/slider.js"></script>
-    <div id="slider" style="width: 520px; height: 300px;"></div>
+    <div id="slider" style="width: 520px; height: 300px;">
+        <!--图片轮播-->
+    </div>
     <script>
         $("#slider").sliderImg({
             imgs: ["<%- theme.plugins.slider.img_1 %>", "<%- theme.plugins.slider.img_2 %>", "<%- theme.plugins.slider.img_3 %>", "<%- theme.plugins.slider.img_4 %>", "<%- theme.plugins.slider.img_5 %>"],

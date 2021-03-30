@@ -534,9 +534,9 @@ site_footer:
 
 ############################### Plugins ############################### > start
 plugins:
-  ########### 图片轮播DIY ##############
+  ########### 图片轮播不支持pjax ##############
   slider:
-    enable: true
+    enable: false
     img_1: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022629@2x.png
     link_1: https://goopher.tk/posts/21510.html
     img_2: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022959@2x.png
