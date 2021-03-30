@@ -536,7 +536,7 @@ site_footer:
 plugins:
   ########### 图片轮播 ##############
   slider:
-    enable: true
+    enable: false
     js: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.5/slider.min.js
     img_1: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210312-022629@2x.png
     link_1: /posts/21510.html
