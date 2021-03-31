@@ -166,12 +166,12 @@ bangumi:
       - urlPattern: /*
         handler: cacheFirst
         options:
-          origin: cdn.jsdelivr.net # 图片等
+          origin: cdn.jsdelivr.net
       - urlPattern: /*
         handler: cacheFirst
         options:
-          origin: kit-pro.fontawesome.com # 图标
+          origin: kit-pro.fontawesome.com
       - urlPattern: /*
         handler: cacheFirst
         options:
-          origin: cdn.nlark.com # 语雀图片
+          origin: cdn.nlark.com
