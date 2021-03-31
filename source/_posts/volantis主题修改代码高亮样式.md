@@ -2,11 +2,11 @@
 title: volantis主题修改代码高亮样式
 author: GOOPHER
 tags:
-- volantis
-- Hexo主题
-  categories: Volantis主题
-  abbrlink: 00003
-  date: 2021-3-31 16:41:31
+  - volantis
+  - Hexo主题
+categories: Volantis主题
+abbrlink: 00003
+date: 2021-3-31 16:41:31
 ---
 ## 前言
 hexo默认的代码高亮样式有时候不够好看，而highlightjs可以自己引用很多好看的样式，比如vs样式。但是它却不支持行号，因此有了这篇修改教程。  
