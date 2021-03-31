@@ -168,20 +168,12 @@ bangumi:
       - urlPattern: /*
         handler: cacheFirst
         options:
-          origin: cdn.jsdelivr.net
+          origin: cdn.jsdelivr.net # 图片等
       - urlPattern: /*
         handler: cacheFirst
         options:
-          origin: kit-pro.fontawesome.com
+          origin: kit-pro.fontawesome.com # 图标
       - urlPattern: /*
         handler: cacheFirst
         options:
-          origin: cdn.nlark.com
-      - urlPattern: /*
-        handler: cacheFirst
-        options:
-          origin: 6262-bbheson-8g786pfr76db9303-1257358059.tcb.qcloud.la
-      - urlPattern: /*
-        handler: cacheFirst
-        options:
-          origin: i0.hdslb.com
+          origin: cdn.nlark.com # 语雀图片
