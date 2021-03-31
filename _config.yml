@@ -138,8 +138,6 @@ import:
     # - <link rel="stylesheet" href="https://at.alicdn.com/t/font_2293546_qip4pw1trbi.css"> # 引入阿里图标库 前面加 iconfont
 
 # 站点地图
-baidusitemap:
-  path: baidusitemap.xml
 sitemap:
   path: sitemap.xml
 
