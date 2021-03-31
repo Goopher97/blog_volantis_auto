@@ -159,9 +159,9 @@ bangumi:
 
 # offline config passed to sw-precache.
 service_worker:
-  maximumFileSizeToCacheInBytes: 2147483648
+  maximumFileSizeToCacheInBytes: 5242880
   staticFileGlobs:
-    - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2,m3u8,mp3,mp4}
+    - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
   stripPrefix: public
   verbose: true
   runtimeCaching:
