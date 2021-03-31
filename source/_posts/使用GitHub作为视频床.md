@@ -11,9 +11,9 @@ date: 2021-3-31 16:41:31
 ## 效果预览
 
 {% video https://cdn.jsdelivr.net/gh/Goopher97/videoff/text/index.m3u8 %}
-#### 由于Chrome原生还不支援m3u8视频的播放，所以在Chrome访问时，可能需要安装一个m3u8的插件，然后访问 https://cdn.jsdelivr.net/gh/Goopher97/videoff/text/index.m3u8 播放。
+ 由于Chrome原生还不支援m3u8视频的播放，所以在Chrome访问时，可能需要安装一个m3u8的插件，然后访问 https://cdn.jsdelivr.net/gh/Goopher97/videoff/text/index.m3u8 播放。
 {% video https://cdn.jsdelivr.net/gh/Goopher97/videoff/text2/index.m3u8 %}
-#### 由于Chrome原生还不支援m3u8视频的播放，所以在Chrome访问时，可能需要安装一个m3u8的插件，然后访问 https://cdn.jsdelivr.net/gh/Goopher97/videoff/text2/index.m3u8 播放。
+ 由于Chrome原生还不支援m3u8视频的播放，所以在Chrome访问时，可能需要安装一个m3u8的插件，然后访问 https://cdn.jsdelivr.net/gh/Goopher97/videoff/text2/index.m3u8 播放。
 ## 操作步骤
 在新建一个公开的仓库，名称任意。这里省略了。
 ### 视频文件ts切片
