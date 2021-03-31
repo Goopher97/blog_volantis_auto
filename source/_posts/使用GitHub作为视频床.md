@@ -9,7 +9,11 @@ abbrlink: 00002
 date: 2021-3-31 16:41:31
 ---
 ## 效果预览
+
 {% video https://cdn.jsdelivr.net/gh/Goopher97/videoff/text/index.m3u8 %}
+
+{% video https://cdn.jsdelivr.net/gh/Goopher97/videoff/text1/index.m3u8 %}
+
 ## 操作步骤
 在新建一个公开的仓库，名称任意。这里省略了。
 ### 视频文件ts切片

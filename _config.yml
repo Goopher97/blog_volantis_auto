@@ -157,7 +157,7 @@ bangumi:
   webp: true
   progress: true
 
-  # offline config passed to sw-precache.
+# offline config passed to sw-precache.
   service_worker:
     maximumFileSizeToCacheInBytes: 5242880
     staticFileGlobs:
