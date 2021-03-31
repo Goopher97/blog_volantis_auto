@@ -1,6 +1,5 @@
-db.json
 .DS_Store
 node_modules
 .idea
-yuque.json
 public
+.gitignore
