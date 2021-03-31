@@ -156,32 +156,3 @@ bangumi:
   color:
   webp: true
   progress: true
-
-# offline config passed to sw-precache.
-service_worker:
-  maximumFileSizeToCacheInBytes: 5242880
-  staticFileGlobs:
-    - public/**/*.{js,html,css,png,jpg,gif,svg,eot,ttf,woff,woff2}
-  stripPrefix: public
-  verbose: true
-  runtimeCaching:
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdn.jsdelivr.net
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: kit-pro.fontawesome.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: cdn.nlark.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: 6262-bbheson-8g786pfr76db9303-1257358059.tcb.qcloud.la
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
-        origin: i0.hdslb.com

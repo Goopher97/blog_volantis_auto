@@ -13,6 +13,7 @@ Allow: /payme/
 Allow: /posts/
 Allow: /talk/
 Allow: /atom.xml
+Allow: /sitemap.xml
 Disallow: /js/
 Disallow: /css/
 Sitemap: https://goopher.tk/sitemap.xml
