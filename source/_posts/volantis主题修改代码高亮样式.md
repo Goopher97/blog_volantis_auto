@@ -36,25 +36,25 @@ volantis.pjax.push(()=>{
 ```
 /* for block of numbers */
 .hljs-ln-numbers {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+  -webkit-touch-callout: none !important;
+  -webkit-user-select: none !important;
+  -khtml-user-select: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
 
-  text-align: center;
-  color: #ccc;
-  border-right: 1px solid #CCC;
-  vertical-align: top;
-  padding-right: 5px;
+  text-align: center !important;
+  color: #ccc !important;
+  border-right: 1px solid #CCC !important;
+  vertical-align: top !important;
+  padding-right: 5px !important;
 
   /* your custom style here */
 }
 
 /* for block of code */
 .hljs-ln-code {
-  padding-left: 10px;
+  padding-left: 10px !important;
 }
 ```
 其主要是让行号和代码有个明显分界，看起来不粘在一起。  
