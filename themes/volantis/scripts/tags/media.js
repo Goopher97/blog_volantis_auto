@@ -7,7 +7,7 @@ function postAudio(args) {
 
 function postVideo(args) {
   const src = args[0].trim();
-  return `<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script><video id="video" controls loop="false" width="100%"></video>
+  return `<video id="video" controls loop="false" width="100%"></video>
 <script>
   var video = document.getElementById('video');
   if(Hls.isSupported()) {
