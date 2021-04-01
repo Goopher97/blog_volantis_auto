@@ -9,26 +9,7 @@ abbrlink: 00002
 date: 2021-3-31 16:41:31
 ---
 ## 效果预览
-
-<script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
-<video id="video" controls loop="false" width="100%"></video>
-<script>
-  var video = document.getElementById('video');
-  if(Hls.isSupported()) {
-  var hls = new Hls();
-  hls.loadSource('https://cdn.jsdelivr.net/gh/Goopher97/videoff/text/index.m3u8');
-  hls.attachMedia(video);
-  hls.on(Hls.Events.MANIFEST_PARSED,function() {
-  video.play();
-});
-} else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-  video.src = 'https://cdn.jsdelivr.net/gh/Goopher97/videoff/text/index.m3u8';
-  video.addEventListener('loadedmetadata',function() {
-  video.play();
-});
-}
-</script>
-
+{% video https://cdn.jsdelivr.net/gh/Goopher97/videoff/text/index.m3u8 %}
 ## 操作步骤
 在新建一个公开的仓库，名称任意。这里省略了。
 ### 视频文件ts切片
@@ -78,5 +59,3 @@ https://cdn.jsdelivr.net/gh/用户名/仓库名/文件夹名/index.m3u8
 }
 </script>
 ```
-### 注意
-目前这个方法不支持pjax，需要把视频页在pjax中排出，以免视频资源加载异常。

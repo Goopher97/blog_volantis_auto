@@ -7,7 +7,21 @@ function postAudio(args) {
 
 function postVideo(args) {
   const src = args[0].trim();
-  return `<div class="video"><video controls preload><source src='${src}' type='video/mp4'>Your browser does not support the video tag.</video></div>`;
+  return `<div clsss="video"><video id="video" controls loop="false" width="100%"></video></div>
+<script>
+  var video = document.getElementById('video');
+  if(Hls.isSupported()) {
+  var hls = new Hls();
+  hls.loadSource('${src}');
+  hls.attachMedia(video);
+  hls.on(Hls.Events.MANIFEST_PARSED,function() {
+});
+} else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+  video.src = '${src}';
+  video.addEventListener('loadedmetadata',function() {
+});
+}
+</script>`;
 }
 
 function postVideos(args, content) {

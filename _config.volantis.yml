@@ -691,7 +691,6 @@ plugins:
        - /bilibili/      # 追番不支持pjax
        - /talk/          # HexoPlusPlus_Talk 不支持 pjax
        - /bb/            # bb 不支持 pjax
-       - /posts/2.html   # 视频不支持pjax
 
   # 从 issues 加载动态数据
   # {% issues sites/timeline/friends | api=xxx | group=key:a,b,c %}
