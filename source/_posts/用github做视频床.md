@@ -78,3 +78,5 @@ https://cdn.jsdelivr.net/gh/用户名/仓库名/文件夹名/index.m3u8
 }
 </script>
 ```
+### 注意
+目前这个方法不支持pjax，需要把视频页在pjax中排出，以免视频资源加载异常。
