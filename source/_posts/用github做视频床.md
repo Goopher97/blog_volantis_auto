@@ -9,6 +9,7 @@ abbrlink: 00002
 date: 2021-3-31 16:41:31
 ---
 ## 效果预览
+## 如遇不能播放请刷新网页
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <video id="video" controls loop="false" width="100%"></video>
 <script>
