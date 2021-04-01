@@ -9,6 +9,7 @@ abbrlink: 00002
 date: 2021-3-31 16:41:31
 ---
 ## 效果预览
+
 <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
 <video id="video" controls loop="false" width="100%"></video>
 <script>
@@ -22,24 +23,6 @@ date: 2021-3-31 16:41:31
 });
 } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
   video.src = 'https://cdn.jsdelivr.net/gh/Goopher97/videoff/text/index.m3u8';
-  video.addEventListener('loadedmetadata',function() {
-  video.play();
-});
-}
-</script>
-
-<video id="video1" controls loop="false" width="100%"></video>
-<script>
-  var video = document.getElementById('video1');
-  if(Hls.isSupported()) {
-  var hls = new Hls();
-  hls.loadSource('https://cdn.jsdelivr.net/gh/Goopher97/videoff/text2/index.m3u8');
-  hls.attachMedia(video);
-  hls.on(Hls.Events.MANIFEST_PARSED,function() {
-  video.play();
-});
-} else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-  video.src = 'https://cdn.jsdelivr.net/gh/Goopher97/videoff/text2/index.m3u8';
   video.addEventListener('loadedmetadata',function() {
   video.play();
 });
