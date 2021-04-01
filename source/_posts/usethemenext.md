@@ -181,7 +181,8 @@ menu:
   links: 友链
 ```
 在node_models/hexo-theme-next/layout/下新建links.njk文件。内容如下：
-```
+
+~~~
 {% block content %}
   {######################}
   {### LINKS BLOCK ###}
@@ -297,8 +298,10 @@ menu:
   {### END LINKS BLOCK ###}
   {##########################}
 {% endblock %}
-```
+~~~
+
 修改同目录下的page.njk文件，在
+
 ```
   {%- elif page.type === 'tags' and not page.title %}
     {{- __('title.tag') + page_title_suffix }}
