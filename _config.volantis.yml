@@ -501,7 +501,7 @@ tag_plugins:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [cnzz, aplayer, social, license, info, copyright]
-  layout: [aplayer, social, cnzz, mengipc, info, tuoguan, houtai, license, copyright]
+  layout: [aplayer, social, cnzz, mengipc, info, tuoguan, analytics, houtai, license, copyright]
   social:
     - icon: fad fa-rss-square # pro
       url: /atom.xml
