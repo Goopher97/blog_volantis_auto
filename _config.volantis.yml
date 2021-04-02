@@ -501,7 +501,7 @@ tag_plugins:
 ############################### Site Footer ############################### > start
 site_footer:
   # layout of footer: [cnzz, aplayer, social, license, info, copyright]
-  layout: [aplayer, social, cnzz, mengipc, info, tuoguan, analytics, houtai, license, copyright]
+  layout: [aplayer, social, cnzz, mengipc, info, analytics, tuoguan, houtai, license, copyright]
   social:
     - icon: fad fa-rss-square # pro
       url: /atom.xml
@@ -524,7 +524,7 @@ site_footer:
   # You can add your own property here. (Support markdown, for example: br: '<br>')
   br: '<br>'
   tuoguan: >
-    本站托管于 <a href="https://vercel.com">Vercel</a> & <a href="https://pages.github.com">Github Page</a>
+    本站托管于 <a href="https://vercel.com">Vercel</a> & <a href="https://pages.github.com">Github Page</a> CDN使用 <a href="https://www.jsdelivr.com/package/gh/Goopher97/mycdn">JSDELIVR</a>
   houtai: >
     本站后台使用<a href="https://hexoplusplus.js.org">HexoPlusPlus</a> & <a href="https://www.yuque.com">语雀</a>,托管于<a href="https://www.cloudflare.com/zh-cn/products/workers-kv">Cloudflare Workers</a>
   mengipc: >
