@@ -1,5 +1,5 @@
 ---
-title: 为volantis添加hls.js以在Chrome上播放m3u8
+title: 为volantis添加hls.js以在Chrome上播放m3u8视频
 author: GOOPHER
 tags:
   - volantis

@@ -1,5 +1,5 @@
 ---
-title: 使用volantis更优雅得展示截图/录屏
+title: 使用volantis更优雅地展示截图/录屏
 author: GOOPHER
 tags:
   - volantis
