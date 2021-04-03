@@ -54,7 +54,7 @@ navbar:
     - name: 设置
       icon: fad fa-cog # pro
       rows:
-        - name: 暗黑模式
+        - name: 黑白切换
           icon: fad fa-sunset # pro
           toggle: darkmode
     - name: 更多
@@ -789,7 +789,7 @@ rightmenu:
     onclick: document.execCommand('print')
   # 自定义菜单的格式如下
   darkmode:
-    name: 暗黑模式
+    name: 黑白切换
     icon: fad fa-sunset # pro
     toggle: darkmode
   talk:
