@@ -71,3 +71,38 @@ sidebar: []
 <!-- endtab -->
 
 {% endtabs %}
+
+以下是链接失效的友链，已删除：
+```
+    - title: Bryce's Club # 名称
+      avatar: https://riris.cn/img/blog/kenan.jpeg # 头像
+      url: https://riris.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-105102@2x.png # 截图
+      keywords: # 关键词
+      description: 啥都想学的程序员。 # 描述
+```
+```
+    - title: 随性のBlog # 名称
+      avatar: https://hanxea.gitee.io/img/image.jpg # 头像
+      url: https://hanxea.gitee.io/random/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-104100@2x.png # 截图
+      keywords: # 关键词
+      description: 一个经常咕咕咕的Blog。 # 描述
+```
+```
+    - title: SAM's BLOG # 名称
+      avatar: https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3216471116,1483332883&fm=26&gp=0.jpg # 头像
+      url: http://sam1314.xyz:1314/ # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description:  # 描述
+```
+```
+    - title: leader755 Blogs # 名称
+      avatar: https://gitee.com/leader755/imagehost/raw/master/blog/wx_avatar.png # 头像
+      url: https://www.leader755.com/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-103107@2x.png # 截图
+      keywords: # 关键词
+      description: 分享web前端相关的技术文章，会记录日常生活中的琐事和大家一起分享。 # 描述
+```
+请以上朋友在恢复访问后给我留言加回友链。
