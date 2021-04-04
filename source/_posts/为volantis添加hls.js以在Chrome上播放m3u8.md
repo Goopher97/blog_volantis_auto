@@ -27,25 +27,11 @@ return `<div class="video"><video controls preload><source src='${src}' type='vi
 ```
 将其修改为：
 ```
-return `<div clsss="video"><video id="video" controls loop="false" width="100%"></video></div>
- <script>
-   var video = document.getElementById('video');
-   if(Hls.isSupported()) {
-   var hls = new Hls();
-   hls.loadSource('${src}');
-   hls.attachMedia(video);
-   hls.on(Hls.Events.MANIFEST_PARSED,function() {
- });
- } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-   video.src = '${src}';
-   video.addEventListener('loadedmetadata',function() {
- });
- }
- </script>`;
+return `<div class="video"><video controls preload id="m3u8video"></video></div><script>var hls = new Hls();var video = document.getElementById('m3u8video');hls.loadSource('${src}');hls.attachMedia(video)</script>`;
 ```
 图示：
 {% gallery center, 1 %}
-![](https://cdn.jsdelivr.net/gh/Goopher97/tuchuang2@master/img/QQ20210401-202708@2x.png)
+![](https://cdn.jsdelivr.net/gh/Goopher97/tuchuang2@master/img/QQ20210404-235813@2x.png)
 {% endgallery %}
 ### 使用
 在md中按照原来的video标签插入即可，示例：
