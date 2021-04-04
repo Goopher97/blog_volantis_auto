@@ -1,6 +1,11 @@
 - group: 手动添加的分组 # 分组标题
   description: 由于api容易挂，并且截图太多页面卡顿，就增加了这一个分组。 # 分组描述
   items:
+    - title: 刘超智 | 博客
+      avatar: https://cdn.jsdelivr.net/gh/Chao-zhi/blog-images@master/avatar.jpg
+      url: https://www.insidentally.com
+      screenshot: https://cdn.jsdelivr.net/gh/Chao-zhi/blog-images@master/screenshot.png
+      description: 分享我的折腾记录和摄影作品
     - title: Ch1e’sBlog
       screenshot: 
       url: https://qqblog.top/
