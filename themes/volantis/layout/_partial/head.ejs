@@ -126,4 +126,27 @@
   <script id="loadcss"></script>
 
   <%- partial('../_third-party/end-of-support/script') %>
+
+  <script>
+    document.addEventListener("error", function(e) {
+      const elem = e.target;
+      const parentElem = e.target.parentElement;
+      const parentElemClass = parentElem.classList.toString();
+      const pParentElemClass = parentElem.parentElement.classList.toString();
+      if (elem.tagName.toLowerCase() !== 'img') {
+        return;
+      }
+      elem.classList.add('fix-cursor-default', 'error');
+      if(parentElemClass === 'fancybox' && pParentElemClass === 'fancybox') {
+        parentElem.parentElement.classList.add('hideFancybox');
+        parentElem.parentElement.classList.remove('fancybox');
+        parentElem.classList.remove('fancybox');
+      } else if(parentElemClass === 'img-bg' && pParentElemClass === 'img-wrap') {
+        parentElem.parentElement.classList.add('hideFancybox');
+      } else if(parentElemClass.indexOf('tk-avatar') != -1 ) {
+        parentElem.parentElement.classList.add('fixImgError');
+      }
+    }, true);
+  </script>
+
 </head>
