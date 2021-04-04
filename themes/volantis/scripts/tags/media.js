@@ -7,21 +7,21 @@ function postAudio(args) {
 
 function postVideo(args) {
   const src = args[0].trim();
-  return `<video id="video" controls loop="false" width="100%"></video>
-<script>
-  var video = document.getElementById('video');
-  if(Hls.isSupported()) {
-  var hls = new Hls();
-  hls.loadSource('${src}');
-  hls.attachMedia(video);
-  hls.on(Hls.Events.MANIFEST_PARSED,function() {
-});
-} else if (video.canPlayType('application/vnd.apple.mpegurl')) {
-  video.src = '${src}';
-  video.addEventListener('loadedmetadata',function() {
-});
-}
-</script>`;
+  return `<div class="video"><video id="video" controls preload>Your browser does not support the audio tag.</video></div>
+ <script>
+   var video = document.getElementById('video');
+   if(Hls.isSupported()) {
+   var hls = new Hls();
+   hls.loadSource('${src}');
+   hls.attachMedia(video);
+   hls.on(Hls.Events.MANIFEST_PARSED,function() {
+ });
+ } else if (video.canPlayType('application/vnd.apple.mpegurl')) {
+   video.src = '${src}';
+   video.addEventListener('loadedmetadata',function() {
+ });
+ }
+ </script>`;
 }
 
 function postVideos(args, content) {
