@@ -2,7 +2,7 @@
 title: 为volantis主题添加图片滚动和热门文章
 author: GOOPHER
 tags:
-  - volantis
+  - Volantis
   - Hexo主题
 categories: Volantis主题
 abbrlink: 16539

@@ -2,7 +2,7 @@
 title: 为volantis主题添加图片轮播和热门文章二点零
 author: GOOPHER
 tags:
-  - volantis
+  - Volantis
   - Hexo主题
 categories: Volantis主题
 abbrlink: 00001

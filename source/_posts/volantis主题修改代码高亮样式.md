@@ -2,7 +2,7 @@
 title: volantis主题修改代码高亮样式
 author: GOOPHER
 tags:
-  - volantis
+  - Volantis
   - Hexo主题
 categories: Volantis主题
 abbrlink: 00003

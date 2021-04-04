@@ -2,7 +2,7 @@
 title: 使用volantis更优雅地展示截图/录屏
 author: GOOPHER
 tags:
-  - volantis
+  - Volantis
   - Hexo主题
 categories: Volantis主题
 abbrlink: 24004

@@ -2,7 +2,7 @@
 title: 为volantis添加hls.js以在Chrome上播放m3u8视频
 author: GOOPHER
 tags:
-  - volantis
+  - Volantis
   - Hexo主题
 categories: Volantis主题
 abbrlink: 00004
