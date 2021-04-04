@@ -71,7 +71,7 @@ date: 2021-03-07 12:41:31
 之后我们就可以在需要的文章插入标签引用了。  
 ### 在文章中引用
 打开需要引用的文章的md文件，在需要的地方插入:  
-```md
+```
 {% frame iphone8SG | img=https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/1E0B6D95-B12F-4B7C-8285-D8415F982909_L0_001_origin.IMG_0456.PNG %}
 ```
 解释：  
