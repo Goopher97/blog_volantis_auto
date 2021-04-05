@@ -7,7 +7,7 @@ function postAudio(args) {
 
 function postVideo(args) {
   const src = args[0].trim();
-  return `<div class="video"><video controls preload id="m3u8video"></video></div><script>var hls = new Hls();var video = document.getElementById('m3u8video');hls.loadSource('${src}');hls.attachMedia(video);</script>`;
+  return `<div class="video"><video controls preload id="m3u8video"></video></div><script>var video = document.getElementById('m3u8video');if (Hls.isSupported()) { var hls = new Hls();hls.loadSource('${src}');hls.attachMedia(video); } else if (video.canPlayType('application/vnd.apple.mpegurl')) { video.src = '${src}'; }</script>`;
 }
 
 function postVideos(args, content) {
