@@ -112,13 +112,13 @@ feed:
   enable: true
   type: atom
   path: atom.xml
-  limit: 20
+  limit: false
   hub:
-  content:
+  content: true
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-  icon: icon.png
+  icon: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/%E7%8C%AB.png
   autodiscovery: true
   template:
 
@@ -140,6 +140,8 @@ import:
 # 站点地图
 sitemap:
   path: sitemap.xml
+  tag: true
+  category: true
 
 # 追番设置
 bangumi:
@@ -175,3 +177,8 @@ service_worker:
       handler: cacheFirst
       options:
         origin: cdn.nlark.com
+
+# 搜索引擎优化友好
+nofollow:
+  enable: true
+  exclude:
