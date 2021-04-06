@@ -6,6 +6,9 @@ tags:
   - 撸资本主义羊毛
 categories: GitHub玩法 
 abbrlink: 00002
+keywords:
+  - GitHub视频床
+  - 视频ts切片
 date: 2021-3-31 16:41:31
 ---
 ## 效果预览

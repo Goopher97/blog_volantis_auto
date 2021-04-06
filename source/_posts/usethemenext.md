@@ -8,6 +8,10 @@ tag:
   - Next
   - Blog
 abbrlink: 6096
+keywords:
+  - Next主题
+  - Hexo博客搭建
+  - Next主题添加友链
 date: 2021-01-27 22:09:31
 ---
 ## 前言

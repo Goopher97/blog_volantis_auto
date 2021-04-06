@@ -7,6 +7,9 @@ tag:
   - Scriptable
   - iOS小组件
 abbrlink: 29954
+keywords:
+  - IOS小组件
+  - 电信小组件
 date: 2021-02-25 00:30:31
 ---
 ## 安装

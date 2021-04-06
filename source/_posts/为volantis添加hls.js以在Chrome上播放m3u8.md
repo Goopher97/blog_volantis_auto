@@ -6,6 +6,10 @@ tags:
   - Hexo主题
 categories: Volantis主题
 abbrlink: 00004
+keywords:
+  - Volantis主题修改
+  - Chrome播放m3u8视频
+  - hls.js
 date: 2021-4-1 16:41:31
 ---
 ## 前言

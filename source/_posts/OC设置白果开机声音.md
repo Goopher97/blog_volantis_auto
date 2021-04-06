@@ -6,6 +6,9 @@ tags:
   - OpenCore配置
 categories: 黑苹果
 abbrlink: 61617
+keywords:
+  - OC配置教程
+  - 设置开机声音
 date: 2021-03-10 12:41:31
 ---
 ## 步骤

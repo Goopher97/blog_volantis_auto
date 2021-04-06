@@ -6,6 +6,9 @@ tag:
   - 黑苹果教程
   - OpenCore配置
 abbrlink: 4815
+keywords:
+  - 黑苹果教程
+  - OC配置教程
 date: 2020-12-27 21:22:31
 ---
 注意事项：OC对于有依赖的SSDT/KEXT加载顺序有严格要求，注意在config配置中的顺序。

@@ -8,6 +8,11 @@ tag:
   - win引导修复
   - 分区教程
 abbrlink: 50300
+keywords:
+  - 黑苹果基础
+  - PE
+  - 分区教程
+  - windows引导修复
 date: 2021-02-16 00:30:31
 ---
 ## 在没有WEPE的U盘上创建分区并导入WEPE

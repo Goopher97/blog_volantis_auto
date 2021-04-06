@@ -6,6 +6,9 @@ tags:
   - Hexo主题
 categories: Volantis主题
 abbrlink: 00001
+keywords:
+  - Volantis主题修改
+  - 图片轮播
 date: 2021-3-30 16:41:31
 ---
 ## 特别鸣谢

@@ -6,6 +6,9 @@ tags:
   - Hexo主题
 categories: Volantis主题
 abbrlink: 16539
+keywords:
+  - Volantis主题修改
+  - 图片轮播
 date: 2021-03-17 12:41:31
 ---
 ## 前言

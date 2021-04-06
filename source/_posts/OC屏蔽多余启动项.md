@@ -6,6 +6,9 @@ tags:
   - OpenCore配置
 categories: 黑苹果
 abbrlink: 10085
+keywords:
+  - OC配置教程
+  - 屏蔽多余启动项
 date: 2021-03-10 10:41:31
 ---
 ## 效果

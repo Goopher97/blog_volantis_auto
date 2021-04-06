@@ -7,6 +7,9 @@ tag:
   - OC引导更新
   - Clover引导更新
 abbrlink: 6350
+keywords:
+  - 引导更新
+  - 黑苹果
 date: 2020-12-27 15:48:31
 ---
 OpenCore引导更新:

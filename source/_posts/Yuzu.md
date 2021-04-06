@@ -7,6 +7,9 @@ tag:
   - 模拟器
   - 游戏
 abbrlink: 50728
+keywords:
+  - Yuzu
+  - Switch模拟器
 date: 2021-02-23 00:30:31
 ---
 ## 前言

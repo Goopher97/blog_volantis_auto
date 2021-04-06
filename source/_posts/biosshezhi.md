@@ -5,6 +5,7 @@ categories: 黑苹果
 tag:
   - 黑苹果前的设置
 abbrlink: 5204
+keywords: 黑苹果BIOS设置
 date: 2020-12-27 16:41:31
 ---
 据之前的文章配置好引导后，还需要设置BIOS才能安装macOS系统。

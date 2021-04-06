@@ -7,6 +7,9 @@ tag:
   - GitHub Action
   - 自动化
 abbrlink: 64028
+keywords:
+  - GitHub Action
+  - Hexo自动部署
 date: 2021-02-09 21:44:31
 ---
 ## 前言

@@ -6,6 +6,9 @@ tag:
   - OC配置教程
   - 黑苹果
 abbrlink: 64658
+keywords:
+  - 黑苹果
+  - OpenCore配置教程
 date: 2020-12-25 23:45:31
 ---
 <p>相关阅读：

@@ -6,6 +6,10 @@ tags:
   - OpenCore配置
 categories: 黑苹果
 abbrlink: 51040
+keywords:
+  - OC配置教程
+  - 启用图形化
+  - 修改OC主题
 date: 2021-03-10 10:41:31
 ---
 ## 前言

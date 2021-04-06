@@ -6,6 +6,9 @@ tag:
   - BIOS魔改
   - 教程
 abbrlink: 10040
+keywords:
+  - BIOS魔改
+  - B250主板上89代U
 date: 2021-02-02 21:11:31
 ---
 理论上也支持Prime B250M-Plus主板，未测试。
