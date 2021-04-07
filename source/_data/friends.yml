@@ -1,6 +1,18 @@
 - group: 手动添加的分组 # 分组标题
   description: 由于api容易挂，并且截图太多页面卡顿，就增加了这一个分组。 # 分组描述
   items:
+    - title: 随性のBlog # 名称
+      avatar: https://hanxea.gitee.io/img/image.jpg # 头像
+      url: https://hanxea.gitee.io/# 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-104100@2x.png # 截图
+      keywords: # 关键词
+      description: 一个经常咕咕咕的Blog。 # 描述
+    - title: leader755 Blogs # 名称
+      avatar: https://gitee.com/leader755/imagehost/raw/master/blog/wx_avatar.png # 头像
+      url: https://www.leader755.com/ # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-103107@2x.png # 截图
+      keywords: # 关键词
+      description: 分享web前端相关的技术文章，会记录日常生活中的琐事和大家一起分享。 # 描述
     - title: 刘超智 | 博客
       avatar: https://cdn.jsdelivr.net/gh/Chao-zhi/blog-images@master/avatar.jpg
       url: https://www.insidentally.com
