@@ -34,6 +34,7 @@ jobs:
           git config --global user.email '${{ secrets.USER_EMAIL }}'
       - name: Deploy Hexo
         run: |
+          node photostool.js
           hexo clean
           yuque-hexo clean
           YUQUE_TOKEN=${{ secrets.HEXO_YUQUE_TOKEN }} yuque-hexo sync

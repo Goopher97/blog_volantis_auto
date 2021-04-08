@@ -39,6 +39,10 @@ navbar:
           icon: fad fa-tags # pro
           url: tags/
         - name: hr
+        - name: 相册
+          icon: fad fa-images # pro
+          url: photos
+        - name: hr
         - name: 关于
           icon: fad fa-info-circle # pro
           url: about/

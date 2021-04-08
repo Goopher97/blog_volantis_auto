@@ -1,0 +1,8 @@
+<%- partial('_pre') %>
+<% page.comments = false; %>
+<div class='l_main<%- page.sidebar == false ? ' no_sidebar' : '' %>'>
+        <% if (page.layout == 'photos') { %>
+            <script src="../js/photos.js"></script>
+    <% } %>
+</div>
+<%- partial('_partial/side') %>
