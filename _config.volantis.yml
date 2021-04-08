@@ -41,7 +41,7 @@ navbar:
         - name: hr
         - name: 相册
           icon: fad fa-images # pro
-          url: photos
+          url: photos/
         - name: hr
         - name: 关于
           icon: fad fa-info-circle # pro
