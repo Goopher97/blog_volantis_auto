@@ -72,7 +72,7 @@ sidebar: []
 
 {% endtabs %}
 
-以下是链接失效的友链，已删除：请以上朋友在恢复访问后给我留言加回友链。
+以下是链接失效的友链，已删除：
 ```
     - title: Bryce's Club # 名称
       avatar: https://riris.cn/img/blog/kenan.jpeg # 头像
@@ -89,3 +89,4 @@ sidebar: []
       keywords: # 关键词
       description:  # 描述
 ```
+请以上朋友在恢复访问后给我留言加回友链。
