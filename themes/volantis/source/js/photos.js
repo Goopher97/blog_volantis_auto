@@ -38,12 +38,12 @@ photo = {
                 '</div>' +
                 '</div>'
         }
-        $(".ImageGrid").append(li);
+        $(".photos").append(li);
         this.minigrid();
     },
     minigrid: function() {
         var grid = new Minigrid({
-            container: '.ImageGrid',
+            container: '.photos',
             item: '.card',
             gutter: 12
         });
