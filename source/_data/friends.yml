@@ -1,6 +1,12 @@
 - group: 手动添加的分组 # 分组标题
   description: 定期手工将issue中的友链移至此分组 # 分组描述
   items:
+    - title: 江卮可乐  # 名称
+      avatar: https://photo.jannns.com/images/2021/03/28/7fe68a00a089a06b55ada27651bc0cb8.jpg  # 头像
+      url: https://blog.jannns.com  # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description: 江的三言两语  # 描述
     - title: 随性のBlog # 名称
       avatar: https://hanxea.gitee.io/img/image.jpg # 头像
       url: https://hanxea.gitee.io/# 链接

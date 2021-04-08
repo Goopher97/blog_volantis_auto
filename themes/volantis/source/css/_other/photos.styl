@@ -1,0 +1,21 @@
+.ImageGrid {
+  width: 100%;
+  max-width: 215px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card {
+  overflow: hidden;
+  transition: .3s ease-in-out;
+  border-radius: 8px;
+  background-color: #efefef;
+  padding: 1.4px;
+}
+.ImageInCard img {
+  padding: 0;
+  border-radius: 8px;
+}
+// 暗黑模式下图片背景色
+@media (prefers-color-scheme: dark) {
+  .card {background-color: #333333;}
+}

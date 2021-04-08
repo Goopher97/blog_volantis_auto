@@ -1,8 +1,15 @@
 <%- partial('_pre') %>
 <% page.comments = false; %>
 <div class='l_main<%- page.sidebar == false ? ' no_sidebar' : '' %>'>
-        <% if (page.layout == 'photos') { %>
-            <script src="../js/photos.js"></script>
+    <% if (page.layout == 'photos') { %>
+        <script src="https://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+        <script src="../js/photos.js"></script>
+        <div class="photos">
+        <article id="tag" class="post article white-box reveal <%- theme.custom_css.body.effect.join(' ') %>">
+            <h2><%- page.title %></h2>
+            <div class="ImageGrid"></div>
+        </article>
+        </div>
     <% } %>
 </div>
 <%- partial('_partial/side') %>

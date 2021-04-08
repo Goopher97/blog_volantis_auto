@@ -8,7 +8,7 @@ var windowWidth = window.innerWidth
 if (windowWidth < 768) {
     var imageWidth = 145; //图片显示宽度(手机端)
 } else {
-    var imageWidth = 215; //图片显示宽度
+    var imageWidth = 250; //图片显示宽度
 }
 
 photo = {
@@ -34,9 +34,7 @@ photo = {
             imageY = imageSize.split('.')[1];
             li += '<div class="card" style="width:' + imageWidth + 'px" >' +
                 '<div class="ImageInCard" style="height:'+ imageWidth * imageY / imageX + 'px">' +
-                '<a data-fancybox="gallery" href="' + imgPath + imgNameWithPattern + '" data-caption="' + imgName + '" title="' +  imgName + '">' +
-                '<img data-src="' + imgPath + imgNameWithPattern + ' " src="' + imgPath + imgNameWithPattern + ' " data-loaded="true">' +
-                '</a>' +
+                '<img src="' + imgPath + imgNameWithPattern + ' ">' +
                 '</div>' +
                 '</div>'
         }
