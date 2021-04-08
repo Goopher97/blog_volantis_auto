@@ -1,16 +1,14 @@
 <%- partial('_pre') %>
+<%- js(theme.plugins.jquery) %>
 <% page.comments = false; %>
 <div class='l_main<%- page.sidebar == false ? ' no_sidebar' : '' %>'>
     <% if (page.layout == 'photos') { %>
-        <%- js(theme.plugins.jquery) %>
-        <script src="../js/photos.js"></script>
-        <div class="photos">
-        <article id="tag" class="post article white-box reveal <%- theme.custom_css.body.effect.join(' ') %>">
+        <article id="photos" class="post article white-box reveal <%- theme.custom_css.body.effect.join(' ') %>">
             <h2><%- page.title %></h2>
+            <script src="../js/photos.js"></script>
             <div class="ImageGrid"></div>
             <%- page.content %>
         </article>
-        </div>
     <% } %>
 </div>
 <%- partial('_partial/side') %>

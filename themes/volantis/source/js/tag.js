@@ -1,4 +1,4 @@
-// 多才标签云
+// 多彩标签云
 function colortag(){
     $("ul.tag-list li").each(function(){
         let random = Math.floor(Math.random()*5+1);
@@ -18,4 +18,7 @@ function colortag(){
 
     });}
 
-colortag();
+$(function () {
+    colortag();
+});
+volantis.pjax.push(colortag)
