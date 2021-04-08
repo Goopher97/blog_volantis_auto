@@ -1,4 +1,4 @@
-var imgDataPath = '../source/photos/photos.json'; //图片名称高宽信息json文件路径
+var imgDataPath = 'https://cdn.jsdelivr.net/gh/Goopher97/Goopher97.github.io/photos/photos.json'; //图片名称高宽信息json文件路径
 var imgPath = 'https://cdn.jsdelivr.net/gh/Goopher97/blog_volantis_auto/photos/';  //图片访问路径
 var imgMaxNum = 50; //图片显示数量
 
