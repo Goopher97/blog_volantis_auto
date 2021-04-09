@@ -2,15 +2,6 @@ var imgDataPath = 'https://cdn.jsdelivr.net/gh/Goopher97/Goopher97.github.io/pho
 var imgPath = 'https://cdn.jsdelivr.net/gh/Goopher97/blog_volantis_auto/photos/';  //图片访问路径
 var imgMaxNum = 50; //图片显示数量
 
-var windowWidth = window.innerWidth
-    || document.documentElement.clientWidth
-    || document.body.clientWidth;
-if (windowWidth < 768) {
-    var imageWidth = 145; //图片显示宽度(手机端)
-} else {
-    var imageWidth = 250; //图片显示宽度
-}
-
 photo = {
     page: 1,
     offset: imgMaxNum,
@@ -32,10 +23,8 @@ photo = {
             imageSize = data[i].split(' ')[0];
             imageX = imageSize.split('.')[0];
             imageY = imageSize.split('.')[1];
-            li += '<div class="card" style="width:' + imageWidth + 'px" >' +
-                '<div class="ImageInCard" style="height:'+ imageWidth * imageY / imageX + 'px">' +
+            li += '<div class="card">' +
                 '<img src="' + imgPath + imgNameWithPattern + ' ">' +
-                '</div>' +
                 '</div>'
         }
         $(".photos").append(li);
