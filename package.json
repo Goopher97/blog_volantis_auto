@@ -47,8 +47,7 @@
     "hexo-renderer-marked": "^4.0.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
-    "hexo-wordcount": "^6.0.1",
-    "image-size": "^0.5.5"
+    "hexo-wordcount": "^6.0.1"
   },
   "devDependencies": {
     "gulp": "^4.0.2",

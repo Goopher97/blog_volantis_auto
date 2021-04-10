@@ -74,14 +74,6 @@ sidebar: []
 
 以下是链接失效的友链，已删除：
 ```
-    - title: Bryce's Club # 名称
-      avatar: https://riris.cn/img/blog/kenan.jpeg # 头像
-      url: https://riris.cn # 链接
-      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-105102@2x.png # 截图
-      keywords: # 关键词
-      description: 啥都想学的程序员。 # 描述
-```
-```
     - title: SAM's BLOG # 名称
       avatar: https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3216471116,1483332883&fm=26&gp=0.jpg # 头像
       url: http://sam1314.xyz:1314/ # 链接

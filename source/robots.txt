@@ -17,4 +17,3 @@ Allow: /sitemap.xml
 Disallow: /js/
 Disallow: /css/
 Sitemap: https://goopher.tk/sitemap.xml
-Sitemap: https://goopher.tk/baidusitemap.xml

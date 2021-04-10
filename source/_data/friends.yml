@@ -1,6 +1,12 @@
 - group: 手动添加的分组 # 分组标题
   description: 定期手工将issue中的友链移至此分组 # 分组描述
   items:
+    - title: Bryce's Club # 名称
+      avatar: https://riris.cn/img/blog/kenan.jpeg # 头像
+      url: https://riris.cn # 链接
+      screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-105102@2x.png # 截图
+      keywords: # 关键词
+      description: 啥都想学的程序员。 # 描述
     - title: 江卮可乐  # 名称
       avatar: https://photo.jannns.com/images/2021/03/28/7fe68a00a089a06b55ada27651bc0cb8.jpg  # 头像
       url: https://blog.jannns.com  # 链接
