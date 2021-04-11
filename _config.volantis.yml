@@ -21,7 +21,7 @@ navbar:
   visiable: always # always, auto
   logo: # choose [img] or [icon + title]
     img:
-    icon: fad fa-scarecrow # pro
+    icon: fad fa-dragon # pro
     title: GOOPHER's Blog
   menu:
     - name: 导航
