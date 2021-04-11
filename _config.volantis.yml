@@ -64,10 +64,6 @@ navbar:
           icon: fad fa-comments-alt # pro
           url: talk/
         - name: hr
-        - name: 哔哔
-          icon: fad fa-comments
-          url: bb/
-        - name: hr
         - name: 追番
           icon: fad fa-alien-monster # pro
           url: bilibili/
