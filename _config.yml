@@ -172,10 +172,6 @@ service_worker:
     - urlPattern: /*
       handler: cacheFirst
       options:
-        origin: kit-pro.fontawesome.com
-    - urlPattern: /*
-      handler: cacheFirst
-      options:
         origin: cdn.nlark.com
 
 # 搜索引擎优化友好

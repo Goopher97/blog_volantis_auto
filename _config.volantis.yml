@@ -42,6 +42,10 @@ navbar:
         - name: 关于
           icon: fad fa-info-circle # pro
           url: about/
+        - name: hr
+        - name: 登录
+          icon: fad fa-sign-in # pro
+          url: https://goopher-hexoplusplus-120.1520396767.workers.dev/hpp/admin/dash/home/
     - name: 友链
       icon: fad fa-link # pro
       url: friends/
@@ -485,10 +489,10 @@ tag_plugins:
   note: # style for default note:
     icon: '\f054'
     color: ''
-    iconfont: 'Font Awesome 5 Free'
+    iconfont: 'Font Awesome 5 Pro'
   # {% checkbox %}
   checkbox:
-    interactive: false # enable interactive for user
+    interactive: true # enable interactive for user
     color: '' # color for default checkbox
   # {% link title, url, img %}
   link:
@@ -560,7 +564,7 @@ plugins:
   # jquery
   jquery: https://cdn.jsdelivr.net/npm/jquery@3.5/dist/jquery.min.js
   # fontawesome
-  fontawesome: https://kit-pro.fontawesome.com/releases/v5.14.0/css/pro.min.css # https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/all.min.css
+  fontawesome: https://cdn.jsdelivr.net/gh/volantis-x/cdn-fontawesome-pro@master/css/all.min.css
   ################ optional plugins ################
 
   ######## Plugins to improve loading speed:
