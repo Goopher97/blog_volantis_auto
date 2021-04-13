@@ -36,7 +36,7 @@ const photo = {
         const htmlEle = `<div class="card lozad" style="width:${imageWidth}px">
                   <div class="ImageInCard" style="height:${ (imageWidth * imageY) / imageX }px">
                     <a data-fancybox="gallery" href="${imgPath}${name}/${imgNameWithPattern}" data-caption="${imgName}" title="${imgName}">
-                            <img class="lazyload" data-src="${imgPath}${name}/${imgNameWithPattern}" src="${imgPath}${name}/${imgNameWithPattern}" onload="lzld(this)" lazyload="auto">
+                            <img src="${imgPath}${name}/${imgNameWithPattern}">
                     </a>
                   </div>
                 </div>`;
