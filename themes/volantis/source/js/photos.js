@@ -37,16 +37,13 @@ const photo = {
                   <div class="ImageInCard" style="height:${
             (imageWidth * imageY) / imageX
         }px">
-                          <div class="gallery center" col="1">
-                          <p>
-                          <div class="fancybox">
-                          <a class="fancybox" pjax-fancybox href="${imgPath}${name}/${imgNameWithPattern}" data-fancybox="images">
-                          <img class="lazyload placeholder" data-srcset="${imgPath}${name}/${imgNameWithPattern}" src="${imgPath}${name}/${imgNameWithPattern}" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg">
-                          
-</a>
-</div>
-</p>
-</div>
+                    <a data-fancybox="gallery" href="${imgPath}${name}/${imgNameWithPattern}"
+                          data-caption="${imgName}" title="${imgName}">
+                            <img  class="lazyload" data-src="${imgPath}${name}/${imgNameWithPattern}"
+                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                            onload="lzld(this)"
+                            lazyload="auto">
+                        </a>
                   </div>
                 </div>`;
         return htmlEle;
@@ -97,7 +94,7 @@ const photo = {
 
         $("#imageTab").append(ulHtml);
         $(".ImageGrid").append(tabContent);
-
+        this.minigrid();
     },
     eventListen: function (data) {
         let self = this;
