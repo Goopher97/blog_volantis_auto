@@ -6,5 +6,4 @@ header: []
 footer: []
 sidebar: []
 ---
-<div id="imageTab"></div>
 <div class="ImageGrid"></div>

@@ -39,7 +39,7 @@ const photo = {
         }px">
                     <a data-fancybox="gallery" href="${imgPath}${name}/${imgNameWithPattern}"
                           data-caption="${imgName}" title="${imgName}">
-                            <img class="lazyload placeholder" data-srcset="${imgPath}${name}/${imgNameWithPattern}" src="${imgPath}${name}/${imgNameWithPattern}" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" onload="lzld(this)" lazyload="auto">
+                            <img class="lazyload placeholder" data-src="${imgPath}${name}/${imgNameWithPattern}" src="${imgPath}${name}/${imgNameWithPattern}" srcset="https://cdn.jsdelivr.net/gh/volantis-x/cdn-volantis@3/img/placeholder/c617bfd2497fcea598e621413e315c368f8d8e.svg" onload="lzld(this)" lazyload="auto">
                         </a>
                   </div>
                 </div>`;
