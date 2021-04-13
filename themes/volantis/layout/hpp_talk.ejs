@@ -1,4 +1,5 @@
 <%- partial('_pre') %>
+<% page.comments = false; %>
 <div class='l_main<%- page.sidebar == false ? ' no_sidebar' : '' %>'>
     <%- partial('_partial/article', {post: page, index: false}) %>
 </div>

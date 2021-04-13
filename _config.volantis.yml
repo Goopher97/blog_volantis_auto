@@ -42,10 +42,6 @@ navbar:
         - name: 关于
           icon: fad fa-info-circle # pro
           url: about/
-        - name: hr
-        - name: 登录
-          icon: fad fa-sign-in # pro
-          url: https://goopher-hexoplusplus-120.1520396767.workers.dev/hpp/admin/dash/home/
     - name: 友链
       icon: fad fa-link # pro
       url: friends/
@@ -64,6 +60,10 @@ navbar:
     - name: 更多
       icon: fad fa-ellipsis-v # pro
       rows:
+        - name: 相册
+          icon: fad fa-images # pro
+          url: photos/
+        - name: hr
         - name: 说说
           icon: fad fa-comments-alt # pro
           url: talk/
@@ -71,6 +71,10 @@ navbar:
         - name: 追番
           icon: fad fa-alien-monster # pro
           url: bilibili/
+        - name: hr
+        - name: 登录
+          icon: fad fa-sign-in # pro
+          url: https://goopher-hexoplusplus-120.1520396767.workers.dev/hpp/admin/dash/home/
         - name: hr
         - name: 来点音乐
           icon: fad fa-music
@@ -694,6 +698,7 @@ plugins:
        - /bilibili/      # 追番不支持pjax
        - /talk/          # HexoPlusPlus_Talk 不支持 pjax
        - /bb/            # bb 不支持 pjax
+       - /photos/        # 相册页面不支持pjax
 
   # 从 issues 加载动态数据
   # {% issues sites/timeline/friends | api=xxx | group=key:a,b,c %}
