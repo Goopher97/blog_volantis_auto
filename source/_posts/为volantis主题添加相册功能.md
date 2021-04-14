@@ -2,14 +2,14 @@
 title: 为volantis主题添加瀑布流相册
 author: GOOPHER
 tags:
-- Volantis
-- Hexo主题
-  categories: Volantis主题
-  abbrlink: 00007
-  keywords:
-- Volantis主题修改
-- Volantis瀑布流相册
-  date: 2021-4-14 09:41:31
+  - Volantis
+  - Hexo主题
+categories: Volantis主题
+abbrlink: 00007
+keywords:
+  - Volantis主题修改
+  - Volantis瀑布流相册
+date: 2021-4-14 09:41:31
 ---
 ## 前言
 功能参考自 [AIGISSS](https://www.aigisss.com/blog/posts/798ba833.html)  
