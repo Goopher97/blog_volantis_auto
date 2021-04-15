@@ -1,6 +1,12 @@
 - group: 手动添加的分组 # 分组标题
   description: 定期手工将issue中的友链移至此分组 # 分组描述
   items:
+    - title: 橘子味雪糕  # 名称
+      avatar: https://tvax4.sinaimg.cn/large/006djwNZgy1gpi5ffzh1fj30pl0pldm9.jpg  # 头像
+      url: https://liuxianl.com  # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description: 竟然选择了远方，便只顾风雨兼程  # 描述
     - title: Bryce's Club # 名称
       avatar: https://riris.cn/img/blog/kenan.jpeg # 头像
       url: https://riris.cn # 链接
