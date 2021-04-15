@@ -1,6 +1,18 @@
 - group: 手动添加的分组 # 分组标题
   description: 定期手工将issue中的友链移至此分组 # 分组描述
   items:
+    - title: fujang  # 名称
+      avatar: https://ae01.alicdn.com/kf/Ue42a40ab31f34c528b05585992307d05F.jpg  # 头像
+      url: https://fujang.github.io  # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description: Count down for your life.  # 描述
+    - title: 夜雨闻曦  # 名称
+      avatar: https://yeyuwenxi.xyz/images.github.io/wangye.jpg  # 头像
+      url: http://yeyuwenxi.xyz  # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description: 爱我所爱，行我所行  # 描述
     - title: 橘子味雪糕  # 名称
       avatar: https://tvax4.sinaimg.cn/large/006djwNZgy1gpi5ffzh1fj30pl0pldm9.jpg  # 头像
       url: https://liuxianl.com  # 链接
