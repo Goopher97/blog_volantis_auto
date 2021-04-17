@@ -1,6 +1,12 @@
 - group: 手动添加的分组 # 分组标题
   description: 定期手工将issue中的友链移至此分组 # 分组描述
   items:
+    - title: CAYZLH
+      avatar: https://cdn.jsdelivr.net/gh/cayzlh/psychic-potato@master/image/IMG_4207.JPG
+      url: https://cayzlh.com
+      screenshot: https://cdn.jsdelivr.net/gh/cayzlh/git-img-repository@master/2021/04/10022016181065401618106540194.png
+      keywords: CODE IS POETRY
+      description: CODE IS POETRY
     - title: fujang  # 名称
       avatar: https://ae01.alicdn.com/kf/Ue42a40ab31f34c528b05585992307d05F.jpg  # 头像
       url: https://fujang.github.io  # 链接
