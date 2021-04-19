@@ -1,12 +1,6 @@
 - group: 手动添加的分组 # 分组标题
   description: 定期手工将issue中的友链移至此分组 # 分组描述
   items:
-    - title: OY  # 名称
-      avatar: https://cdn.jsdelivr.net/gh/OYCodeSite/CDN@0.2/oy_img/avatar.jpg  # 头像
-      url: https://oy6090.top/ # 链接
-      screenshot:  # 截图
-      keywords: # 关键词
-      description: 放弃不难，但坚持一定很酷。 # 描述
     - title: CAYZLH
       avatar: https://cdn.jsdelivr.net/gh/cayzlh/psychic-potato@master/image/IMG_4207.JPG
       url: https://cayzlh.com
