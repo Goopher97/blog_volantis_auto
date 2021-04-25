@@ -29,7 +29,6 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - googledce40db8487e2d1b.html
 
 # Writing
 new_post_name: :title.md # File name of new posts
