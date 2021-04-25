@@ -1,5 +1,5 @@
-- group: 手动添加的分组 # 分组标题
-  description: 定期手工将issue中的友链移至此分组 # 分组描述
+- group: 五湖四海的朋友 # 分组标题
+  description: # 分组描述
   items:
     - title: 雾雨霜星 # 名称
       avatar: https://marisa-kirisame.gitee.io/phw/Avatar.jpg # 头像
