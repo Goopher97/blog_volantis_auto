@@ -102,9 +102,12 @@ theme: volantis
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: git
+- type: git
   repo: git@github.com:Goopher97/Goopher97.github.io.git
   branch: master
+- type: cjh_google_url_submitter
+- type: cjh_bing_url_submitter
+- type: cjh_baidu_url_submitter
 
 # RSS订阅
 feed:
@@ -177,3 +180,22 @@ service_worker:
 nofollow:
   enable: true
   exclude:
+
+# SEO
+hexo_submit_urls_to_search_engine:
+  submit_condition: count # Submitted condition, optional value: count | period, Now only supports count
+  count: 50 # Submit the latest 10 links
+  period: 900 # Submit a link with a modification time of 900 seconds
+  google: 1 #  Whether to submit to Google, optional values: 1 | 0 (0: No; 1: Yes)
+  bing: 1 #  Whether to submit to bing, optional value: 1 | 0 (0: no; 1: yes)
+  baidu: 1 # Whether to submit to baidu, optional value: 1 | 0 (0: no; 1: yes)
+  txt_path: submit_urls.txt # The address of the text document, the link to be pushed will be saved in this text document
+  baidu_host: https://goopher.tk # Domain name registered in Baidu webmaster platform
+  baidu_token: BJZr06eHqDby3YMt # Please note that this is your secret key, so do not publish the website source code in the public repository!
+  bing_host: https://goopher.tk # Domain name registered in Bing webmaster platform
+  bing_token: 64ba4577ee5441d99da348299043b7ce # Please note that this is your secret key, so do not publish the website source code in the public repository!
+  google_host: https://goopher.tk # Domain name registered in Google webmaster platform
+  google_key_file: Project.json #Store the json file of the google key in the root directory of the website (same location as the hexo _config.yml file), please do not publish the source code of the website in the public warehouse!
+  replace: 0  # Whether to replace some substrings in links, optional value: 1 | 0 (0: no; 1: yes)
+  find_what: https://www.goopher.tk
+  replace_with: https://goopher.tk
