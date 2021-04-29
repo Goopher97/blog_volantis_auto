@@ -86,7 +86,7 @@ navbar:
     - name: 开往
       icon: fad fa-subway # pro
       url: https://travellings.now.sh/
-  search: Search...   # Search bar placeholder
+  search: 查找你想看的文章...   # Search bar placeholder
 ############################### Navigation Bar ############################### > end
 
 
