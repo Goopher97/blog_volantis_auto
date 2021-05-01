@@ -1,6 +1,7 @@
 ---
 title: 从无到有配置OC引导
 author: GOOPHER
+pin: true
 categories: 黑苹果
 tag:
   - OC配置教程

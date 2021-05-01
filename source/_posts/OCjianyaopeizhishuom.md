@@ -1,6 +1,7 @@
 ---
 title: OC简要配置说明（旧）已修正
 author: GOOPHER
+pin: true
 categories: 黑苹果
 tag:
   - 黑苹果教程
