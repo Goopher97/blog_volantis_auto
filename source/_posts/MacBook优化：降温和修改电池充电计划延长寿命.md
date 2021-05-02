@@ -32,7 +32,7 @@ hosts屏蔽:
 {% endgallery %}
 如果没有屏蔽好，这个软件就会弹出盗版检测，导致破解失效。  
 当然你也可以使用防火墙软件，禁止它联网。
-之后打卡软件，在最顶栏上设置自动模式，温度太高时禁用睿频，温度降低后又重新启用睿频。
+之后打开软件，在最顶栏上设置自动模式，温度太高时禁用睿频，温度降低后又重新启用睿频。
 {% gallery center, 1 %}
 ![](https://cdn.jsdelivr.net/gh/Goopher97/tuchuang2@master/img/QQ20210502-143242@2x.png)
 {% endgallery %}
