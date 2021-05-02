@@ -1,6 +1,12 @@
 - group: 五湖四海的朋友 # 分组标题
   description: # 分组描述
   items:
+    - title: Xnote # 名称
+      avatar: https://cdn.jsdelivr.net/gh/liaoblog/img@master/blogpage/noteimg.png # 头像
+      url: https://note.xgamego.top # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description: 一个喜欢瞎折腾的小姐姐 # 描述
     - title: 老兄de博客 # 名称
       avatar: https://www.moec.top/wp-content/uploads/2021/01/photo_2020-04-05_08-52-40.jpg # 头像
       url: https://www.moec.top # 链接
