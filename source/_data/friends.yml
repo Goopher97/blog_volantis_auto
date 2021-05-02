@@ -1,6 +1,12 @@
 - group: 五湖四海的朋友 # 分组标题
   description: # 分组描述
   items:
+    - title: 老兄de博客 # 名称
+      avatar: https://www.moec.top/wp-content/uploads/2021/01/photo_2020-04-05_08-52-40.jpg # 头像
+      url: https://www.moec.top # 链接
+      screenshot: https://www.riem.in/images/2021/04/30/image.png # 截图
+      keywords: # 关键词
+      description: 杂七杂八的分享~ # 描述
     - title: 雾雨霜星 # 名称
       avatar: https://marisa-kirisame.gitee.io/phw/Avatar.jpg # 头像
       url: http://www.shuangxing.top/ # 链接
