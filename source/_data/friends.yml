@@ -67,11 +67,12 @@
       screenshot: https://cdn.jsdelivr.net/gh/Goopher97/tuchuang@master/img/QQ20210228-103107@2x.png # 截图
       keywords: # 关键词
       description: 分享web前端相关的技术文章，会记录日常生活中的琐事和大家一起分享。 # 描述
-    - title: 刘超智 | 博客
-      avatar: https://cdn.jsdelivr.net/gh/Chao-zhi/blog-images@master/avatar.jpg
-      url: https://www.insidentally.com
-      screenshot: https://cdn.jsdelivr.net/gh/Chao-zhi/blog-images@master/screenshot.png
-      description: 分享我的折腾记录和摄影作品
+    - title:  无妄当自持
+      avatar:  https://7.dusays.com/2021/05/02/0d897ba89fff8.svg
+      url:  https://www.insidentally.com/
+      screenshot:  https://7.dusays.com/2021/05/02/573b9db590b25.png
+      keywords:
+      description: 学习，分享，实践
     - title: Ch1e’sBlog
       screenshot: 
       url: https://qqblog.top/
