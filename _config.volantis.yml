@@ -72,6 +72,10 @@ navbar:
           icon: fad fa-alien-monster # pro
           url: bilibili/
         - name: hr
+        - name: 来点音乐
+          icon: fad fa-music
+          url: https://music.goopher.tk/
+        - name: hr
         - name: 音乐解锁
           icon: fad fa-unlock-alt # pro
           url: https://unlockmusic.goopher.tk/
