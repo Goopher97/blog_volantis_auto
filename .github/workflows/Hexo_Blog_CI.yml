@@ -1,6 +1,6 @@
 name: Hexo Blog CI
 
-on: [push, repository_dispatch]
+on: push
 
 jobs:
   build:
@@ -18,7 +18,6 @@ jobs:
       - name: Setup Hexo Dependencies
         run: |
           npm install -g hexo-cli
-          npm install -g yuque-hexo
           npm install -g gulp
           npm install
       - name: Setup Deploy Private Key
@@ -37,9 +36,6 @@ jobs:
         run: |
           rm -rf source/photos/*.json
           node photos/tool.js
-          hexo clean
-          yuque-hexo clean
-          YUQUE_TOKEN=${{ secrets.HEXO_YUQUE_TOKEN }} yuque-hexo sync
           hexo bangumi -d
           hexo bangumi -u
           hexo generate

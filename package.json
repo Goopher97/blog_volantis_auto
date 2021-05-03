@@ -2,25 +2,11 @@
   "name": "hexo-site",
   "version": "0.0.0",
   "private": true,
-  "yuqueConfig": {
-    "postPath": "source/_posts/yuque",
-    "cachePath": "yuque.json",
-    "mdNameFormat": "title",
-    "adapter": "hexo",
-    "concurrency": 5,
-    "baseUrl": "https://www.yuque.com/api/v2",
-    "login": "goopher",
-    "repo": "rm2cbk",
-    "onlyPublished": true,
-    "onlyPublic": true
-  },
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
-    "server": "hexo server",
-    "sync": "yuque-hexo sync",
-    "clean:yuque": "yuque-hexo clean"
+    "server": "hexo server"
   },
   "hexo": {
     "version": "5.4.0"
@@ -57,7 +43,6 @@
     "gulp-htmlclean": "^2.7.22",
     "gulp-htmlmin": "^5.0.1",
     "gulp-minify-css": "^1.2.4",
-    "gulp-terser": "^2.0.1",
-    "yuque-hexo": "^1.7.0"
+    "gulp-terser": "^2.0.1"
   }
 }
