@@ -13,7 +13,6 @@ Allow: /payme/
 Allow: /posts/
 Allow: /talk/
 Allow: /atom.xml
-Allow: /sitemap.xml
 Allow: /submit_urls.txt
 Disallow: /js/
 Disallow: /css/
