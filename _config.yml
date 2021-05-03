@@ -191,9 +191,9 @@ hexo_submit_urls_to_search_engine:
   baidu: 1 # Whether to submit to baidu, optional value: 1 | 0 (0: no; 1: yes)
   txt_path: submit_urls.txt # The address of the text document, the link to be pushed will be saved in this text document
   baidu_host: https://goopher.tk # Domain name registered in Baidu webmaster platform
-  baidu_token: BJZr06eHqDby3YMt # Please note that this is your secret key, so do not publish the website source code in the public repository!
+  baidu_token: 0 # Please note that this is your secret key, so do not publish the website source code in the public repository!
   bing_host: https://goopher.tk # Domain name registered in Bing webmaster platform
-  bing_token: 64ba4577ee5441d99da348299043b7ce # Please note that this is your secret key, so do not publish the website source code in the public repository!
+  bing_token: 0 # Please note that this is your secret key, so do not publish the website source code in the public repository!
   google_host: https://goopher.tk # Domain name registered in Google webmaster platform
   google_key_file: Project.json #Store the json file of the google key in the root directory of the website (same location as the hexo _config.yml file), please do not publish the source code of the website in the public warehouse!
   replace: 0  # Whether to replace some substrings in links, optional value: 1 | 0 (0: no; 1: yes)

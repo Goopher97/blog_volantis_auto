@@ -33,6 +33,9 @@ jobs:
           git config --global user.name '${{ secrets.USER_NAME }}'
           git config --global user.email '${{ secrets.USER_EMAIL }}'
       - name: Deploy Hexo
+        env:
+          BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
+          BING_TOKEN: ${{ secrets.BING_TOKEN }}
         run: |
           rm -rf source/photos/*.json
           node photos/tool.js
