@@ -4,16 +4,16 @@ on: [push, repository_dispatch]
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: macOS-10.14
 
     steps:
       - name: Checkout Repository master branch
         uses: actions/checkout@master
 
-      - name: Setup Node.js 15.x
+      - name: Setup Node.js 14.x
         uses: actions/setup-node@master
         with:
-          node-version: "15.x"
+          node-version: "14.x"
 
       - name: Setup Hexo Dependencies
         run: |

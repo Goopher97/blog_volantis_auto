@@ -184,7 +184,7 @@ nofollow:
 # SEO
 hexo_submit_urls_to_search_engine:
   submit_condition: count # Submitted condition, optional value: count | period, Now only supports count
-  count: 99 # Submit the latest 10 links
+  count: 10 # Submit the latest 10 links
   period: 900 # Submit a link with a modification time of 900 seconds
   google: 1 #  Whether to submit to Google, optional values: 1 | 0 (0: No; 1: Yes)
   bing: 1 #  Whether to submit to bing, optional value: 1 | 0 (0: no; 1: yes)
