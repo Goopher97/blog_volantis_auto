@@ -17,9 +17,10 @@ jobs:
 
       - name: Setup Hexo Dependencies
         run: |
-          npm install hexo-cli -g
-          npm install --save
-          npm install yuque-hexo -g
+          npm install -g hexo-cli
+          npm install -g yuque-hexo
+          npm install -g gulp
+          npm install
       - name: Setup Deploy Private Key
         env:
           HEXO_DEPLOY_PRIVATE_KEY: ${{ secrets.HEXO_DEPLOY_PRIVATE_KEY }}
