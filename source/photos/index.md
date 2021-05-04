@@ -13,3 +13,8 @@ sidebar: []
 ---
 
 <div class="ImageGrid"></div>
+
+<script>
+    // 添加一个 script tag 与代码在文章末尾.
+    alert("ImageGrid");
+</script>
