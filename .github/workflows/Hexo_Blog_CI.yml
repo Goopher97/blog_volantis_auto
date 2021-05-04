@@ -18,6 +18,7 @@ jobs:
       - name: Setup Hexo Dependencies
         run: |
           npm install -g hexo-cli
+          npm install -g yarn
           npm install -g gulp
           npm install
       - name: Setup Deploy Private Key
