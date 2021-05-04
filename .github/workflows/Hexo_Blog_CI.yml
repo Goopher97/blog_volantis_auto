@@ -38,6 +38,7 @@ jobs:
           BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
           BING_TOKEN: ${{ secrets.BING_TOKEN }}
         run: |
+          curl https://purge.jsdelivr.net/gh/Goopher97/blog_volantis_auto@main/photos/photos/
           rm -rf source/photos/*.json
           node photos/tool.js
           hexo bangumi -d
