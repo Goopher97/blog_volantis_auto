@@ -2,9 +2,9 @@
 title: 从无到有配置OC引导
 author: GOOPHER
 pin: true
-password: "GOOPHER1"
-abstract: 这篇文章被加密了。
-message: 这篇文章被加密了，请打赏博主后联系博主获取密码吧。
+password: "GOOPHER4467"
+abstract: 这篇文章被加密了，请联系博主获取密码吧。
+message: 这篇文章被加密了，请联系博主获取密码吧。
 wrong_pass_message: 抱歉, 这个密码不对, 请再试试。
 wrong_hash_message: 抱歉, 文字校验出现问题，但是您可以继续阅读本文。
 categories: 黑苹果
