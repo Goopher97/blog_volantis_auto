@@ -768,7 +768,7 @@ plugins:
      hpp_talk:
        css: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.4/source/css/talk.css # 建议锁定版本
        js: https://cdn.jsdelivr.net/gh/Goopher97/mycdn@1.4/source/js/talk_user.js # 建议锁定版本
-       limit: 5
+       limit: 10
        start: 0
        # 配置项按照yml格式继续填写即可
        domain: goopher-hexoplusplus-120.1520396767.workers.dev
