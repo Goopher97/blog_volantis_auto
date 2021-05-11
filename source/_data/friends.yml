@@ -1,6 +1,12 @@
 - group: 五湖四海的朋友 # 分组标题
   description: # 分组描述
   items:
+    - title: 少雄博客 # 名称
+      avatar: https://gitee.com/ShaoxiongDu/imageBed/raw/master/%E5%A4%B4%E5%83%8F.jpg # 头像
+      url: https://www.shaoxiongdu.cn # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description: 一个即将秃顶的计科狗🐕 # 描述
     - title: 上杉九月的博客
       avatar: https://cdn.jsdelivr.net/gh/sakurasep/images@1.1/important/touxiang.jpg
       screenshot: https://cdn.jsdelivr.net/gh/sakurasep/images_01@1.0/sakurasep.jpg
