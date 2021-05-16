@@ -1,6 +1,12 @@
 - group: 五湖四海的朋友 # 分组标题
   description: # 分组描述
   items:
+    - title: 春天和爱情の樱花 # 名称
+      avatar: https://www.wujunchao.top/wp-content/uploads/2021/04/IU.jpg # 头像
+      url: https://www.wujunchao.top/ # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description: 一念花开，一念花落~ # 描述
     - title: SAM's BLOG # 名称
       avatar: https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3216471116,1483332883&fm=26&gp=0.jpg # 头像
       url: http://sam1314.xyz:1314/ # 链接
