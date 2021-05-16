@@ -71,14 +71,3 @@ sidebar: []
 <!-- endtab -->
 
 {% endtabs %}
-
-以下是链接失效的友链，已删除：
-```
-    - title: SAM's BLOG # 名称
-      avatar: https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3216471116,1483332883&fm=26&gp=0.jpg # 头像
-      url: http://sam1314.xyz:1314/ # 链接
-      screenshot:  # 截图
-      keywords: # 关键词
-      description:  # 描述
-```
-请以上朋友在恢复访问后给我留言加回友链。
