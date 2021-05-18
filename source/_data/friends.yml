@@ -1,6 +1,12 @@
 - group: 五湖四海的朋友 # 分组标题
   description: # 分组描述
   items:
+    - title: 青柠博客 # 名称
+      avatar: https://www.lihouse.xyz/wp-content/uploads/2020/07/favicon-1.png # 头像
+      url: https://www.lihouse.xyz/ # 链接
+      screenshot:  # 截图
+      keywords: # 关键词
+      description: 人的一生要疯狂一次，无论是为一个人，一段情，一段旅途，或一个梦 # 描述
     - title: 春天和爱情の樱花 # 名称
       avatar: https://www.wujunchao.top/wp-content/uploads/2021/04/IU.jpg # 头像
       url: https://www.wujunchao.top/ # 链接
