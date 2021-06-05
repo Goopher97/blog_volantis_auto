@@ -42,10 +42,6 @@ navbar:
         - name: 关于
           icon: fad fa-info-circle # pro
           url: about/
-        - name: hr
-        - name: 空调房
-          icon: fad fa-air-conditioner # pro
-          url: air-conditioner/
     - name: 友链
       icon: fad fa-link # pro
       url: friends/
@@ -786,17 +782,13 @@ plugins:
 rightmenu:
   enable: true
   # hr: 分割线, music: 音乐控制器
-  layout: [home, archives, categories, tags, conditioner, hr, print, hr, music]
+  layout: [home, archives, categories, tags, hr, print, hr, music]
   # 可选功能项
   print:
     name: 打印页面
     icon: fad fa-print # pro
     onclick: document.execCommand('print')
   # 自定义菜单的格式如下
-  conditioner:
-    name: 空调房
-    icon: fad fa-air-conditioner
-    url: air-conditioner/
   darkmode:
     name: 黑白切换
     icon: fad fa-sunset # pro
