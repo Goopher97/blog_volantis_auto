@@ -11,7 +11,9 @@ keywords:
  - MacBook充电计划修改
 date: 2021-5-2 14:00:00
 ---
-####我的博客即将同步至腾讯云+社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=3208ogs1k5yc0
+
+我的博客即将同步至腾讯云+社区，邀请大家一同入驻：https://cloud.tencent.com/developer/support-plan?invite_code=3208ogs1k5yc0
+
 ## 给MacBook降温
 这里使用的方法是禁用睿频，当然，这会让CPU性能大打折扣。。。
 不过，我觉得对于笔记本来说没有睿频也还行，毕竟不指望用笔记本跑什么编译什么的，只要能看看网页文档就够了。
