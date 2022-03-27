@@ -1,6 +1,7 @@
 name: Hexo Blog CI
 'on':
   - workflow_dispatch
+  - push
 jobs:
   build:
     runs-on: ubuntu-18.04
