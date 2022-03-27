@@ -1,21 +1,16 @@
 name: Hexo Blog CI
-
-on:
-    - push
-
+'on':
+  - workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-18.04
-
     steps:
       - name: Checkout Repository master branch
         uses: actions/checkout@master
-
       - name: Setup Node.js 14.x
         uses: actions/setup-node@master
         with:
-          node-version: "14.x"
-
+          node-version: 14.x
       - name: Setup Hexo Dependencies
         run: |
           npm install -g hexo-cli
@@ -38,12 +33,20 @@ jobs:
         env:
           BAIDU_TOKEN: ${{ secrets.BAIDU_TOKEN }}
           BING_TOKEN: ${{ secrets.BING_TOKEN }}
-        run: |
-          curl https://purge.jsdelivr.net/gh/Goopher97/blog_volantis_auto@main/photos/photos/
+        run: >
+          curl
+          https://purge.jsdelivr.net/gh/Goopher97/blog_volantis_auto@main/photos/photos/
+
           rm -rf source/photos/*.json
+
           node photos/tool.js
+
           hexo bangumi -d
+
           hexo bangumi -u
+
           hexo generate
+
           gulp
+
           hexo deploy
